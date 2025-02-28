@@ -12,8 +12,7 @@
     "test-storybook": "test-storybook",
     "test-storybook:watch": "test-storybook --watch",
     "test-storybook:update": "test-storybook --updateSnapshot",
-    "test-storybook:coverage": "test-storybook --coverage",
-    "coverage:open": "open coverage/storybook/index.html"
+    "test-storybook:coverage": "test-storybook --coverage"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
