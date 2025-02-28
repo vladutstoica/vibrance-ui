@@ -7,6 +7,24 @@ const meta = {
   component: Button,
   parameters: {
     layout: 'centered',
+    // Enable visual testing
+    visual: true,
+    // Enable accessibility testing
+    a11y: {
+      // Disable specific rules if needed
+      disable: [],
+      // Configure specific rules
+      rules: [
+        {
+          id: 'button-name',
+          enabled: true,
+        },
+        {
+          id: 'color-contrast',
+          enabled: true,
+        },
+      ],
+    },
   },
   tags: ['autodocs'],
   argTypes: {
