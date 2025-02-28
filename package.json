@@ -12,7 +12,12 @@
     "test-storybook": "test-storybook",
     "test-storybook:watch": "test-storybook --watch",
     "test-storybook:update": "test-storybook --updateSnapshot",
-    "test-storybook:coverage": "test-storybook --coverage"
+    "test-storybook:coverage": "test-storybook --coverage",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "lint": "biome lint .",
+    "check": "biome check .",
+    "biome:ci": "biome ci ."
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",
@@ -25,6 +30,7 @@
     "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@chromatic-com/storybook": "^3.2.5",
     "@storybook/addon-a11y": "^8.6.2",
     "@storybook/addon-coverage": "^1.0.5",
