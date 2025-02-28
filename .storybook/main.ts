@@ -6,27 +6,17 @@ const config: StorybookConfig = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
-    {
-      "name": "@storybook/addon-essentials",
-      "options": {
-        "docs": true,
-        "actions": true,
-        "controls": true,
-        "viewport": true,
-        "backgrounds": true,
-        "toolbars": true,
-        "measure": true,
-        "outline": true
-      }
-    },
+    "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-a11y"
+    "@storybook/addon-a11y",
+    '@storybook/addon-coverage',
   ],
   "framework": {
     "name": "@storybook/react-vite",
     "options": {}
   }
 };
+
 export default config;
