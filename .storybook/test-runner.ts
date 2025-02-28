@@ -10,6 +10,13 @@ const config: TestRunnerConfig = {
     // Get the entire context of a story, including parameters, args, argTypes, etc.
     const storyContext = await getStoryContext(page, context);
 
+    // Take DOM snapshot first
+    const elementHandler = await page.$('#storybook-root');
+    if (elementHandler) {
+      const innerHTML = await elementHandler.innerHTML();
+      expect(innerHTML).toMatchSnapshot();
+    }
+
     // Do not run a11y tests on disabled stories
     if (storyContext.parameters?.a11y?.disable) {
       return;
