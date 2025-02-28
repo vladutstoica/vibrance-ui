@@ -7,14 +7,28 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+.pnpm-store/
+
+# Build outputs
 dist
 dist-ssr
+storybook-static/
 *.local
+
+# Testing
+coverage/
+.nyc_output/
+*storybook.log
+
+# TypeScript
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 .DS_Store
 *.suo
@@ -23,5 +37,5 @@ dist-ssr
 *.sln
 *.sw?
 
-storybook-static/
-*storybook.log
+# Vite
+.vite/
