@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from './button';
-import { expect, within, userEvent } from '@storybook/test';
+import { expect, within, userEvent, fn } from '@storybook/test';
 
 const meta = {
   title: 'UI/Button',
@@ -9,21 +9,45 @@ const meta = {
     layout: 'centered',
     // Enable visual testing
     visual: true,
-    // Enable accessibility testing
+    // Enhanced accessibility testing configuration
     a11y: {
-      // Disable specific rules if needed
-      disable: [],
-      // Configure specific rules
-      rules: [
-        {
-          id: 'button-name',
-          enabled: true,
+      config: {
+        rules: [
+          {
+            // Ensure buttons have accessible names
+            id: 'button-name',
+            enabled: true,
+          },
+          {
+            // Check color contrast
+            id: 'color-contrast',
+            enabled: true,
+            // Minimum contrast ratio (WCAG AA)
+            options: {
+              noScroll: true,
+              contrastRatio: { 
+                normal: {
+                  expected: 4.5
+                },
+                large: {
+                  expected: 3
+                }
+              }
+            }
+          },
+          {
+            // Ensure interactive elements are keyboard accessible
+            id: 'interactive-supports-focus',
+            enabled: true,
+          }
+        ],
+      },
+      options: {
+        runOnly: {
+          type: 'tag',
+          values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'best-practice'],
         },
-        {
-          id: 'color-contrast',
-          enabled: true,
-        },
-      ],
+      },
     },
   },
   tags: ['autodocs'],
@@ -31,10 +55,28 @@ const meta = {
     variant: {
       control: 'select',
       options: ['default', 'destructive', 'outline', 'secondary', 'ghost', 'link'],
+      description: 'The visual style variant of the button',
+      table: {
+        defaultValue: { summary: 'default' },
+      },
     },
     size: {
       control: 'select',
       options: ['default', 'sm', 'lg', 'icon'],
+      description: 'The size of the button',
+      table: {
+        defaultValue: { summary: 'default' },
+      },
+    },
+    disabled: {
+      control: 'boolean',
+      description: 'Whether the button is disabled',
+      table: {
+        defaultValue: { summary: 'false' },
+      },
+    },
+    onClick: {
+      description: 'Function called when the button is clicked',
     },
   },
 } satisfies Meta<typeof Button>;
@@ -46,6 +88,7 @@ export const Primary: Story = {
   args: {
     children: 'Primary Button',
     variant: 'default',
+    onClick: fn(),
   },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
