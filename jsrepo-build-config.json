@@ -1,6 +1,7 @@
 {
 	"$schema": "https://unpkg.com/jsrepo@1.41.2/schemas/registry-config.json",
 	"dirs": [
+		"./src/ui",
 		"./src"
 	],
 	"doNotListBlocks": [],
@@ -9,8 +10,8 @@
 	"listCategories": [],
 	"excludeDeps": ["react", "react-dom"],
 	"includeBlocks": [],
-	"includeCategories": [],
+	"includeCategories": ["core", "utils"],
 	"excludeBlocks": [],
 	"excludeCategories": [],
-	"preview": false
+	"preview": true
 }

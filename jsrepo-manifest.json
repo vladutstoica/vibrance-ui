@@ -1,59 +1,29 @@
 {
 	"categories": [
 		{
-			"name": "ui",
+			"name": "core",
 			"blocks": [
 				{
-					"name": "core",
-					"directory": "src/ui/core",
-					"category": "ui",
-					"tests": false,
+					"name": "button",
+					"directory": "src/ui/core/button",
+					"category": "core",
+					"tests": true,
 					"subdirectory": true,
 					"list": true,
-					"files": [],
-					"localDependencies": [],
-					"dependencies": [],
+					"files": [
+						"button.stories.tsx",
+						"button.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"class-variance-authority@^0.7.1"
+					],
 					"devDependencies": [],
-					"_imports_": {}
-				},
-				{
-					"name": "ecommerce",
-					"directory": "src/ui/ecommerce",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [],
-					"localDependencies": [],
-					"dependencies": [],
-					"devDependencies": [],
-					"_imports_": {}
-				},
-				{
-					"name": "form",
-					"directory": "src/ui/form",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [],
-					"localDependencies": [],
-					"dependencies": [],
-					"devDependencies": [],
-					"_imports_": {}
-				},
-				{
-					"name": "marketing",
-					"directory": "src/ui/marketing",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [],
-					"localDependencies": [],
-					"dependencies": [],
-					"devDependencies": [],
-					"_imports_": {}
+					"_imports_": {
+						"../../../utils/cn": "{{utils/cn}}"
+					}
 				}
 			]
 		},
