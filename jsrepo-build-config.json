@@ -1,0 +1,22 @@
+{
+	"$schema": "https://unpkg.com/jsrepo@1.41.2/schemas/registry-config.json",
+	"dirs": [
+		"./src"
+	],
+	"doNotListBlocks": [],
+	"doNotListCategories": [],
+	"listBlocks": [],
+	"listCategories": [],
+	"excludeDeps": ["react", "react-dom"],
+	"includeBlocks": [],
+	"includeCategories": [],
+	"excludeBlocks": [],
+	"excludeCategories": [],
+	"preview": false,
+	"peerDependencies": {
+	  "tailwindcss": {
+		"version": "3.x.x",
+		"message": "Tailwind@v4 is not yet fully supported see: https://github.com/ieedan/jsrepo"
+	  }
+	}
+}

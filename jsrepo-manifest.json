@@ -1,0 +1,90 @@
+{
+	"peerDependencies": {
+		"tailwindcss": {
+			"version": "3.x.x",
+			"message": "Tailwind@v4 is not yet fully supported see: https://github.com/ieedan/jsrepo"
+		}
+	},
+	"categories": [
+		{
+			"name": "ui",
+			"blocks": [
+				{
+					"name": "core",
+					"directory": "src/ui/core",
+					"category": "ui",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "ecommerce",
+					"directory": "src/ui/ecommerce",
+					"category": "ui",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "form",
+					"directory": "src/ui/form",
+					"category": "ui",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "marketing",
+					"directory": "src/ui/marketing",
+					"category": "ui",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				}
+			]
+		},
+		{
+			"name": "utils",
+			"blocks": [
+				{
+					"name": "cn",
+					"directory": "src/utils",
+					"category": "utils",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"cn.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [
+						"clsx@^2.1.1",
+						"tailwind-merge@^3.0.2"
+					],
+					"devDependencies": []
+				}
+			]
+		}
+	]
+}
