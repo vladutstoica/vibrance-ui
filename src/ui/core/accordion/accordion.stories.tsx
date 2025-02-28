@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "./accordion";
 
-
 const meta: Meta<typeof Accordion> = {
   title: "Design System/Core/Accordion",
   component: Accordion,
