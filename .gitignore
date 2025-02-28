@@ -21,6 +21,8 @@ storybook-static/
 coverage/
 .nyc_output/
 *storybook.log
+__snapshots__/
+*.snap
 
 # TypeScript
 *.tsbuildinfo
