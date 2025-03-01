@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Separator Horizontal smoke-test 1`] = `
+<div class="flex gap-2">
+  <div>
+    Left
+  </div>
+  <div data-orientation="vertical"
+       role="none"
+       class="shrink-0 bg-border w-[1px] h-auto"
+  >
+  </div>
+  <div>
+    Right
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/Separator Vertical smoke-test 1`] = `
+<div class="grid gap-2">
+  <div>
+    Top
+  </div>
+  <div data-orientation="horizontal"
+       role="none"
+       class="shrink-0 bg-border h-[1px] w-full"
+  >
+  </div>
+  <div>
+    Bottom
+  </div>
+</div>
+`;
