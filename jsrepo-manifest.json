@@ -4,6 +4,29 @@
 			"name": "core",
 			"blocks": [
 				{
+					"name": "accordion",
+					"directory": "src/ui/core/accordion",
+					"category": "core",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"accordion.stories.tsx",
+						"accordion.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"@radix-ui/react-accordion@^1.2.3",
+						"lucide-react@^0.476.0"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
 					"name": "button",
 					"directory": "src/ui/core/button",
 					"category": "core",
