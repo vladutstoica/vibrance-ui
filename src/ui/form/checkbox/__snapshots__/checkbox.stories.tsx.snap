@@ -1,17 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Form/Checkbox Default smoke-test 1`] = `
-<button type="button"
-        role="checkbox"
-        aria-checked="false"
-        data-state="unchecked"
-        value="on"
-        class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
->
-</button>
+exports[`Design System/Form/Checkbox Default smoke-test 1`] = `
+<div class="flex items-center space-x-2">
+  <button type="button"
+          role="checkbox"
+          aria-checked="false"
+          data-state="unchecked"
+          value="on"
+          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+          id="terms"
+  >
+  </button>
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="terms"
+  >
+    Accept terms and conditions
+  </label>
+</div>
 `;
 
-exports[`Form/Checkbox Disabled smoke-test 1`] = `
+exports[`Design System/Form/Checkbox Disabled smoke-test 1`] = `
 <div class="flex items-center space-x-2">
   <button type="button"
           role="checkbox"
@@ -21,18 +29,18 @@ exports[`Form/Checkbox Disabled smoke-test 1`] = `
           disabled
           value="on"
           class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
-          id="terms2"
+          id="terms-disabled"
   >
   </button>
-  <label class="font-medium text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-         for="terms2"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="terms-disabled"
   >
     Accept terms and conditions
   </label>
 </div>
 `;
 
-exports[`Form/Checkbox DisabledChecked smoke-test 1`] = `
+exports[`Design System/Form/Checkbox DisabledChecked smoke-test 1`] = `
 <div class="flex items-center space-x-2">
   <button type="button"
           role="checkbox"
@@ -65,7 +73,7 @@ exports[`Form/Checkbox DisabledChecked smoke-test 1`] = `
       </svg>
     </span>
   </button>
-  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-muted-foreground"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
          for="terms-disabled-checked"
   >
     Accept terms and conditions
@@ -73,7 +81,7 @@ exports[`Form/Checkbox DisabledChecked smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Checkbox Required smoke-test 1`] = `
+exports[`Design System/Form/Checkbox Required smoke-test 1`] = `
 <div class="flex items-center space-x-2">
   <button type="button"
           role="checkbox"
@@ -89,15 +97,17 @@ exports[`Form/Checkbox Required smoke-test 1`] = `
          for="terms-required"
   >
     Accept terms and conditions
-    <span class="text-red-500">
+    <span class="text-red-500"
+          aria-hidden="true"
+    >
       *
     </span>
   </label>
 </div>
 `;
 
-exports[`Form/Checkbox WithText smoke-test 1`] = `
-<div class="items-top flex space-x-2">
+exports[`Design System/Form/Checkbox WithText smoke-test 1`] = `
+<div class="flex items-top space-x-2">
   <button type="button"
           role="checkbox"
           aria-checked="false"
@@ -108,7 +118,7 @@ exports[`Form/Checkbox WithText smoke-test 1`] = `
   >
   </button>
   <div class="grid gap-1.5 leading-none">
-    <label class="font-medium text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+    <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
            for="terms1"
     >
       Accept terms and conditions

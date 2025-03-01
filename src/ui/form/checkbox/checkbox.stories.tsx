@@ -46,31 +46,51 @@ const meta: Meta<typeof Checkbox> = {
 export default meta;
 type Story = StoryObj<typeof Checkbox>;
 
+// Common label styles
+const labelStyles =
+  "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70";
+
+// Common layout wrapper for checkbox + label combinations
+const CheckboxWrapper = ({
+  children,
+  align = "center",
+}: {
+  children: React.ReactNode;
+  align?: "center" | "top";
+}) => <div className={`flex items-${align} space-x-2`}>{children}</div>;
+
 export const Default: Story = {
-  args: {},
+  decorators: [
+    (Story) => (
+      <div className="flex items-center space-x-2">
+        <Story />
+        <Label htmlFor="terms">Accept terms and conditions</Label>
+      </div>
+    ),
+  ],
+  args: {
+    id: "terms",
+  },
 };
 
 export const WithText: Story = {
   decorators: [
     (Story) => (
-      <div className="items-top flex space-x-2">
-        <Checkbox id="terms1" />
+      <CheckboxWrapper align="top">
+        <Story />
         <div className="grid gap-1.5 leading-none">
-          <Label
-            htmlFor="terms1"
-            className="font-medium text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-          >
+          <Label htmlFor="terms1" className={labelStyles}>
             Accept terms and conditions
           </Label>
           <p className="text-muted-foreground text-sm">
             You agree to our Terms of Service and Privacy Policy.
           </p>
         </div>
-      </div>
+      </CheckboxWrapper>
     ),
   ],
   args: {
-    id: "terms",
+    id: "terms1",
   },
 };
 
@@ -81,15 +101,12 @@ export const Disabled: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="flex items-center space-x-2">
-        <Checkbox id="terms2" disabled />
-        <Label
-          htmlFor="terms2"
-          className="font-medium text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-        >
+      <CheckboxWrapper>
+        <Story />
+        <Label htmlFor="terms-disabled" className={labelStyles}>
           Accept terms and conditions
         </Label>
-      </div>
+      </CheckboxWrapper>
     ),
   ],
 };
@@ -102,15 +119,12 @@ export const DisabledChecked: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="flex items-center space-x-2">
+      <CheckboxWrapper>
         <Story />
-        <Label
-          htmlFor="terms-disabled-checked"
-          className="text-muted-foreground"
-        >
+        <Label htmlFor="terms-disabled-checked" className={labelStyles}>
           Accept terms and conditions
         </Label>
-      </div>
+      </CheckboxWrapper>
     ),
   ],
 };
@@ -119,15 +133,19 @@ export const Required: Story = {
   args: {
     required: true,
     id: "terms-required",
+    "aria-required": true,
   },
   decorators: [
     (Story) => (
-      <div className="flex items-center space-x-2">
+      <CheckboxWrapper>
         <Story />
-        <Label htmlFor="terms-required">
-          Accept terms and conditions <span className="text-red-500">*</span>
+        <Label htmlFor="terms-required" className={labelStyles}>
+          Accept terms and conditions{" "}
+          <span className="text-red-500" aria-hidden="true">
+            *
+          </span>
         </Label>
-      </div>
+      </CheckboxWrapper>
     ),
   ],
 };
