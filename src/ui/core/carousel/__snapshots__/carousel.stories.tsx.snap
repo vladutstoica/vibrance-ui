@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Design System/Core/Carousel Default smoke-test 1`] = `
-<div class="relative w-full max-w-xs"
-     role="region"
-     aria-roledescription="carousel"
+<section class="relative w-full max-w-xs"
+         aria-roledescription="carousel"
 >
   <div class="overflow-hidden">
     <div class="flex -ml-4"
@@ -105,13 +104,12 @@ exports[`Design System/Core/Carousel Default smoke-test 1`] = `
       Next slide
     </span>
   </button>
-</div>
+</section>
 `;
 
 exports[`Design System/Core/Carousel Size smoke-test 1`] = `
-<div class="relative mx-12 w-full max-w-xs"
-     role="region"
-     aria-roledescription="carousel"
+<section class="relative mx-12 w-full max-w-xs"
+         aria-roledescription="carousel"
 >
   <div class="overflow-hidden">
     <div class="flex -ml-4"
@@ -213,5 +211,5 @@ exports[`Design System/Core/Carousel Size smoke-test 1`] = `
       Next slide
     </span>
   </button>
-</div>
+</section>
 `;
