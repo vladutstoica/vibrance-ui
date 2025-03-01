@@ -1,88 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Design System/Form/Input Default smoke-test 1`] = `
-<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-       placeholder="Enter your text"
->
-`;
-
-exports[`Design System/Form/Input Disabled smoke-test 1`] = `
-<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-       disabled
-       placeholder="Disabled input"
->
-`;
-
-exports[`Design System/Form/Input Email smoke-test 1`] = `
-<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-       placeholder="Enter your email"
-       type="email"
->
-`;
-
-exports[`Design System/Form/Input File smoke-test 1`] = `
-<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-       type="file"
->
-`;
-
-exports[`Design System/Form/Input Password smoke-test 1`] = `
-<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-       placeholder="Enter your password"
-       type="password"
->
-`;
-
-exports[`Design System/Form/Input Search smoke-test 1`] = `
-<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-       placeholder="Search..."
-       type="search"
->
-`;
-
-exports[`Design System/Form/Input WithError smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="email-error"
-         class="font-medium text-sm"
-  >
-    Email
-  </label>
-  <input class="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm border-red-500 focus-visible:ring-red-500"
-         id="email-error"
-         placeholder="Enter your email"
-         type="email"
-  >
-  <p class="text-red-500 text-sm">
-    Please enter a valid email address
-  </p>
-</div>
-`;
-
-exports[`Design System/Form/Input WithLabel smoke-test 1`] = `
-<div class="grid w-full max-w-sm gap-1.5">
-  <label for="email"
-         class="font-medium text-sm"
-  >
-    Email
-  </label>
-  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-         id="email"
-         placeholder="Enter your email"
-         type="email"
-  >
-</div>
-`;
-
-exports[`Design System/Form/Input WithValue smoke-test 1`] = `
-<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-       value="Hello World"
->
-`;
-
-exports[`Form/Input Default smoke-test 1`] = `
-<div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-Default"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-Default"
   >
     Default
   </label>
@@ -93,10 +14,10 @@ exports[`Form/Input Default smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Input Disabled smoke-test 1`] = `
+exports[`Design System/Form/Input Disabled smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-Disabled"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-Disabled"
   >
     Disabled
   </label>
@@ -108,10 +29,10 @@ exports[`Form/Input Disabled smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Input Email smoke-test 1`] = `
+exports[`Design System/Form/Input Email smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-Email"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-Email"
   >
     Email
   </label>
@@ -123,10 +44,10 @@ exports[`Form/Input Email smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Input File smoke-test 1`] = `
+exports[`Design System/Form/Input File smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-File"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-File"
   >
     File
   </label>
@@ -138,10 +59,10 @@ exports[`Form/Input File smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Input Password smoke-test 1`] = `
+exports[`Design System/Form/Input Password smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-Password"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-Password"
   >
     Password
   </label>
@@ -153,10 +74,10 @@ exports[`Form/Input Password smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Input Search smoke-test 1`] = `
+exports[`Design System/Form/Input Search smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-Search"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-Search"
   >
     Search
   </label>
@@ -168,27 +89,27 @@ exports[`Form/Input Search smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Input WithError smoke-test 1`] = `
+exports[`Design System/Form/Input WithError smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-With Error"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-With Error"
   >
     With Error
   </label>
   <div class="grid w-full max-w-sm gap-1.5">
-    <label for="input-error"
-           class="font-medium text-sm"
+    <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+           for="input-error"
     >
       Email
     </label>
-    <input class="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm border-red-500 focus-visible:ring-red-500"
+    <input class="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm border-destructive focus-visible:ring-destructive"
            id="input-With Error"
-           placeholder="Enter your email"
            aria-describedby="email-error"
            type="email"
     >
     <p id="email-error"
-       class="text-red-500 text-sm"
+       class="text-red-700 text-sm dark:text-red-400"
+       aria-live="polite"
     >
       Please enter a valid email address
     </p>
@@ -196,10 +117,10 @@ exports[`Form/Input WithError smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Input WithValue smoke-test 1`] = `
+exports[`Design System/Form/Input WithValue smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
-  <label for="input-With Value"
-         class="font-medium text-sm"
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="input-With Value"
   >
     With Value
   </label>

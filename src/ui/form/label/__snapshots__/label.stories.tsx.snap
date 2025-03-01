@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Form/Label Default smoke-test 1`] = `
+exports[`Design System/Form/Label Default smoke-test 1`] = `
 <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
   Accept terms and conditions
 </label>
 `;
 
-exports[`Form/Label Required smoke-test 1`] = `
+exports[`Design System/Form/Label Required smoke-test 1`] = `
 <div class="grid w-full max-w-sm items-center gap-1.5">
   <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
          for="required-email"
@@ -25,7 +25,7 @@ exports[`Form/Label Required smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Label WithCheckbox smoke-test 1`] = `
+exports[`Design System/Form/Label WithCheckbox smoke-test 1`] = `
 <div class="flex items-center space-x-2">
   <button type="button"
           role="checkbox"
@@ -44,7 +44,7 @@ exports[`Form/Label WithCheckbox smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Label WithDescription smoke-test 1`] = `
+exports[`Design System/Form/Label WithDescription smoke-test 1`] = `
 <div class="grid w-full max-w-sm gap-1.5">
   <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
          for="picture"
@@ -61,7 +61,7 @@ exports[`Form/Label WithDescription smoke-test 1`] = `
 </div>
 `;
 
-exports[`Form/Label WithInput smoke-test 1`] = `
+exports[`Design System/Form/Label WithInput smoke-test 1`] = `
 <div class="grid w-full max-w-sm items-center gap-1.5">
   <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
          for="email"

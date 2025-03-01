@@ -101,20 +101,25 @@ export const File: Story = {
 };
 
 export const WithError: Story = {
-  render: (args) => (
-    <div className="grid w-full max-w-sm gap-1.5">
-      <Label htmlFor="input-error">Email</Label>
-      <Input
-        id="input-error"
-        type="email"
-        placeholder="Enter your email"
-        className="border-red-500 focus-visible:ring-red-500"
-        aria-describedby="email-error"
-        {...args}
-      />
-      <p id="email-error" className="text-red-500 text-sm">
-        Please enter a valid email address
-      </p>
-    </div>
-  ),
+  decorators: [
+    (Story) => (
+      <div className="grid w-full max-w-sm gap-1.5">
+        <Label htmlFor="input-error">Email</Label>
+        <Story />
+        <p
+          id="email-error"
+          className="text-red-700 text-sm dark:text-red-400"
+          aria-live="polite"
+        >
+          Please enter a valid email address
+        </p>
+      </div>
+    ),
+  ],
+  args: {
+    id: "input-error",
+    type: "email",
+    "aria-describedby": "email-error",
+    className: "border-destructive focus-visible:ring-destructive",
+  },
 };
