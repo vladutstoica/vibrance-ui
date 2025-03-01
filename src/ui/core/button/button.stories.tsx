@@ -145,6 +145,7 @@ export const Icon: Story = {
     ...Secondary.args,
     size: "icon",
     children: <Mail />,
+    "aria-label": "Send email",
   },
 };
 
