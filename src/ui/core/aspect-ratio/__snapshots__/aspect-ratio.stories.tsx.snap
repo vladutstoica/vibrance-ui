@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/AspectRatio Landscape smoke-test 1`] = `
+<div class="w-[500px]">
+  <div data-radix-aspect-ratio-wrapper
+       style="position: relative; width: 100%; padding-bottom: 56.25%;"
+  >
+    <div class="bg-muted"
+         style="position: absolute; inset: 0px;"
+    >
+      <img alt="Placeholder Alt Text"
+           class="rounded-md object-cover"
+           src="https://placehold.co/1600x900"
+      >
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/AspectRatio Portrait smoke-test 1`] = `
+<div class="w-[300px]">
+  <div data-radix-aspect-ratio-wrapper
+       style="position: relative; width: 100%; padding-bottom: 133.333%;"
+  >
+    <div class="bg-muted"
+         style="position: absolute; inset: 0px;"
+    >
+      <img alt="Placeholder Alt Text"
+           class="rounded-md object-cover"
+           src="https://placehold.co/300x400"
+      >
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/AspectRatio Square smoke-test 1`] = `
+<div class="w-[500px]">
+  <div data-radix-aspect-ratio-wrapper
+       style="position: relative; width: 100%; padding-bottom: 100%;"
+  >
+    <div class="bg-muted"
+         style="position: absolute; inset: 0px;"
+    >
+      <img alt="Placeholder Alt Text"
+           class="rounded-md object-cover"
+           src="https://placehold.co/500"
+      >
+    </div>
+  </div>
+</div>
+`;
