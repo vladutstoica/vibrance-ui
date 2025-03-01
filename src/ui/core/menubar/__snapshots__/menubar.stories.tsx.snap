@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Menubar Default smoke-test 1`] = `
+<div role="menubar"
+     class="flex h-9 items-center space-x-1 rounded-md border bg-background p-1 shadow-sm"
+     tabindex="0"
+     data-orientation="horizontal"
+     style="outline: none;"
+>
+  <button type="button"
+          role="menuitem"
+          id="radix-:r1:"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          data-state="closed"
+          class="flex cursor-default select-none items-center rounded-sm px-3 py-1 font-medium text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground"
+          tabindex="-1"
+          data-orientation="horizontal"
+          data-radix-collection-item
+  >
+    File
+  </button>
+</div>
+`;
+
+exports[`Design System/Core/Menubar WithCheckboxItems smoke-test 1`] = `
+<div role="menubar"
+     class="flex h-9 items-center space-x-1 rounded-md border bg-background p-1 shadow-sm"
+     tabindex="0"
+     data-orientation="horizontal"
+     style="outline: none;"
+>
+  <button type="button"
+          role="menuitem"
+          id="radix-:rd:"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          data-state="closed"
+          class="flex cursor-default select-none items-center rounded-sm px-3 py-1 font-medium text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground"
+          tabindex="-1"
+          data-orientation="horizontal"
+          data-radix-collection-item
+  >
+    Filters
+  </button>
+</div>
+`;
+
+exports[`Design System/Core/Menubar WithRadioItems smoke-test 1`] = `
+<div role="menubar"
+     class="flex h-9 items-center space-x-1 rounded-md border bg-background p-1 shadow-sm"
+     tabindex="0"
+     data-orientation="horizontal"
+     style="outline: none;"
+>
+  <button type="button"
+          role="menuitem"
+          id="radix-:r9:"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          data-state="closed"
+          class="flex cursor-default select-none items-center rounded-sm px-3 py-1 font-medium text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground"
+          tabindex="-1"
+          data-orientation="horizontal"
+          data-radix-collection-item
+  >
+    View
+  </button>
+</div>
+`;
+
+exports[`Design System/Core/Menubar WithSubmenu smoke-test 1`] = `
+<div role="menubar"
+     class="flex h-9 items-center space-x-1 rounded-md border bg-background p-1 shadow-sm"
+     tabindex="0"
+     data-orientation="horizontal"
+     style="outline: none;"
+>
+  <button type="button"
+          role="menuitem"
+          id="radix-:r5:"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          data-state="closed"
+          class="flex cursor-default select-none items-center rounded-sm px-3 py-1 font-medium text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground"
+          tabindex="-1"
+          data-orientation="horizontal"
+          data-radix-collection-item
+  >
+    Actions
+  </button>
+</div>
+`;
