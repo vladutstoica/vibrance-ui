@@ -6,7 +6,6 @@ const meta = {
   title: "Design System/Core/Button",
   component: Button,
   parameters: {
-    layout: "centered",
     // Enable visual testing
     visual: true,
     // Enhanced accessibility testing configuration
