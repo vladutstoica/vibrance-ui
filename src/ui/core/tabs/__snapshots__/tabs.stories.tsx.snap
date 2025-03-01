@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Tabs Default smoke-test 1`] = `
+<div dir="ltr"
+     data-orientation="horizontal"
+     class="w-96"
+>
+  <div role="tablist"
+       aria-orientation="horizontal"
+       class="h-9 items-center justify-center rounded-lg bg-muted p-1 text-muted-foreground grid grid-cols-2"
+       tabindex="0"
+       data-orientation="horizontal"
+       style="outline: none;"
+  >
+    <button type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="radix-:r0:-content-account"
+            data-state="active"
+            id="radix-:r0:-trigger-account"
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow"
+            tabindex="-1"
+            data-orientation="horizontal"
+            data-radix-collection-item
+    >
+      Account
+    </button>
+    <button type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="radix-:r0:-content-password"
+            data-state="inactive"
+            id="radix-:r0:-trigger-password"
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow"
+            tabindex="-1"
+            data-orientation="horizontal"
+            data-radix-collection-item
+    >
+      Password
+    </button>
+  </div>
+  <div data-state="active"
+       data-orientation="horizontal"
+       role="tabpanel"
+       aria-labelledby="radix-:r0:-trigger-account"
+       id="radix-:r0:-content-account"
+       tabindex="0"
+       class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+       style="animation-duration: 0s;"
+  >
+    Make changes to your account here.
+  </div>
+  <div data-state="inactive"
+       data-orientation="horizontal"
+       role="tabpanel"
+       aria-labelledby="radix-:r0:-trigger-password"
+       hidden
+       id="radix-:r0:-content-password"
+       tabindex="0"
+       class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+  >
+  </div>
+</div>
+`;
