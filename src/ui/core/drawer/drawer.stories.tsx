@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
+import React from "react";
 import {
   Drawer,
   DrawerClose,
@@ -10,13 +11,12 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "./drawer";
-import React from "react";
 
 /**
  * A drawer component for React.
  */
 const meta = {
-  title: "ui/Drawer",
+  title: "Design System/Core/Drawer",
   component: Drawer,
   tags: ["autodocs"],
   argTypes: {},
@@ -29,10 +29,12 @@ const meta = {
           <DrawerDescription>This action cannot be undone.</DrawerDescription>
         </DrawerHeader>
         <DrawerFooter>
+          {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button className="rounded bg-primary px-4 py-2 text-primary-foreground">
             Submit
           </button>
           <DrawerClose>
+            {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
             <button className="hover:underline">Cancel</button>
           </DrawerClose>
         </DrawerFooter>
