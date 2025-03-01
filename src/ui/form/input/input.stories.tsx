@@ -1,125 +1,85 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import * as React from "react";
-import { Label } from "../label/label";
+
+import React from "react";
 import { Input } from "./input";
 
-const meta: Meta<typeof Input> = {
+/**
+ * Displays a form input field or a component that looks like an input field.
+ */
+const meta = {
   title: "Design System/Form/Input",
   component: Input,
   tags: ["autodocs"],
-  argTypes: {
-    type: {
-      description: "The type of the input field",
-      control: "select",
-      options: [
-        "text",
-        "email",
-        "password",
-        "number",
-        "search",
-        "tel",
-        "url",
-        "file",
-      ],
-      table: {
-        type: { summary: "string" },
-        defaultValue: { summary: "text" },
-      },
-    },
-    disabled: {
-      description: "Whether the input is disabled",
-      control: "boolean",
-      table: {
-        type: { summary: "boolean" },
-        defaultValue: { summary: "false" },
-      },
-    },
-    placeholder: {
-      description: "Placeholder text for the input",
-      control: "text",
-    },
+  argTypes: {},
+  args: {
+    className: "w-96",
+    type: "email",
+    placeholder: "Email",
+    disabled: false,
   },
-  decorators: [
-    (Story, context) => (
-      <div className="grid w-full max-w-sm gap-1.5">
-        <Label htmlFor={`input-${context.name}`}>{context.name}</Label>
-        {Story({ args: { ...context.args, id: `input-${context.name}` } })}
-      </div>
-    ),
-  ],
-};
+  parameters: {
+    layout: "centered",
+  },
+} satisfies Meta<typeof Input>;
 
 export default meta;
-type Story = StoryObj<typeof Input>;
 
-export const Default: Story = {
-  args: {
-    placeholder: "Enter your text",
-  },
-};
+type Story = StoryObj<typeof meta>;
 
+/**
+ * The default form of the input field.
+ */
+export const Default: Story = {};
+
+/**
+ * Use the `disabled` prop to make the input non-interactive and appears faded,
+ * indicating that input is not currently accepted.
+ */
 export const Disabled: Story = {
-  args: {
-    disabled: true,
-    placeholder: "Disabled input",
-  },
+  args: { disabled: true },
 };
 
-export const WithValue: Story = {
-  args: {
-    defaultValue: "Hello World",
-    "aria-label": "Text input with value",
-  },
+/**
+ * Use the `Label` component to includes a clear, descriptive label above or
+ * alongside the input area to guide users.
+ */
+export const WithLabel: Story = {
+  render: (args) => (
+    <div className="grid items-center gap-1.5">
+      <label htmlFor="email">{args.placeholder}</label>
+      <Input {...args} id="email" />
+    </div>
+  ),
 };
 
-export const Email: Story = {
-  args: {
-    type: "email",
-    placeholder: "Enter your email",
-  },
+/**
+ * Use a text element below the input field to provide additional instructions
+ * or information to users.
+ */
+export const WithHelperText: Story = {
+  render: (args) => (
+    <div className="grid items-center gap-1.5">
+      <label htmlFor="email-2">{args.placeholder}</label>
+      <Input {...args} id="email-2" />
+      <p className="text-foreground/50 text-sm">Enter your email address.</p>
+    </div>
+  ),
 };
 
-export const Password: Story = {
-  args: {
-    type: "password",
-    placeholder: "Enter your password",
-  },
-};
-
-export const Search: Story = {
-  args: {
-    type: "search",
-    placeholder: "Search...",
-  },
-};
-
-export const File: Story = {
-  args: {
-    type: "file",
-    accept: "image/*",
-  },
-};
-
-export const WithError: Story = {
-  decorators: [
-    (Story) => (
-      <div className="grid w-full max-w-sm gap-1.5">
-        <Label htmlFor="input-error">Email</Label>
-        <Story />
-        <p
-          id="email-error"
-          className="text-red-700 text-sm dark:text-red-400"
-          aria-live="polite"
-        >
-          Please enter a valid email address
-        </p>
-      </div>
-    ),
-  ],
-  args: {
-    id: "input-error",
-    type: "email",
-    "aria-describedby": "email-error",
-    className: "border-destructive focus-visible:ring-destructive",
-  },
+/**
+ * Use the `Button` component to indicate that the input field can be submitted
+ * or used to trigger an action.
+ */
+export const WithButton: Story = {
+  render: (args) => (
+    <div className="flex items-center space-x-2">
+      <Input {...args} />
+      <button
+        className="rounded bg-primary px-4 py-2 text-primary-foreground"
+        type="submit"
+      >
+        Subscribe
+      </button>
+    </div>
+  ),
 };
