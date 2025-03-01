@@ -10,7 +10,7 @@
 	"listCategories": [],
 	"excludeDeps": ["react", "react-dom"],
 	"includeBlocks": [],
-	"includeCategories": ["core", "utils"],
+	"includeCategories": ["core", "form", "utils"],
 	"excludeBlocks": [],
 	"excludeCategories": [],
 	"preview": true

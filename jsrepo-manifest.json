@@ -51,6 +51,77 @@
 			]
 		},
 		{
+			"name": "form",
+			"blocks": [
+				{
+					"name": "checkbox",
+					"directory": "src/ui/form/checkbox",
+					"category": "form",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"checkbox.stories.tsx",
+						"checkbox.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"@radix-ui/react-checkbox@^1.1.4",
+						"lucide-react@^0.476.0"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
+					"name": "input",
+					"directory": "src/ui/form/input",
+					"category": "form",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"input.stories.tsx",
+						"input.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {
+						"../../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
+					"name": "label",
+					"directory": "src/ui/form/label",
+					"category": "form",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"label.stories.tsx",
+						"label.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"@radix-ui/react-label@^2.1.2",
+						"class-variance-authority@^0.7.1"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../../utils/cn": "{{utils/cn}}"
+					}
+				}
+			]
+		},
+		{
 			"name": "utils",
 			"blocks": [
 				{
