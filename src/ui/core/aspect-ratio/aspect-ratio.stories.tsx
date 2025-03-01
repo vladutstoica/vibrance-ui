@@ -1,64 +1,71 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import * as React from "react";
+
+import React from "react";
 import { AspectRatio } from "./aspect-ratio";
 
+/**
+ * Displays content within a desired ratio.
+ */
 const meta: Meta<typeof AspectRatio> = {
   title: "Design System/Core/AspectRatio",
   component: AspectRatio,
   tags: ["autodocs"],
-  argTypes: {
-    ratio: {
-      description: "The aspect ratio of the container",
-      control: "text",
-      table: {
-        type: { summary: "string" },
-        defaultValue: { summary: "1/1" },
-      },
-    },
+  argTypes: {},
+  render: (args) => (
+    <AspectRatio {...args} className="bg-slate-50 dark:bg-slate-800">
+      {/*TODO: use a <Image /> component*/}
+      <img
+        src="https://placehold.co/1000"
+        alt="Placeholder Alt Text"
+        className="rounded-md object-cover"
+      />
+    </AspectRatio>
+  ),
+  decorators: [
+    (Story) => (
+      <div className="w-1/2">
+        <Story />
+      </div>
+    ),
+  ],
+} satisfies Meta<typeof AspectRatio>;
+
+export default meta;
+
+type Story = StoryObj<typeof meta>;
+
+/**
+ * The default form of the aspect ratio.
+ */
+export const Default: Story = {
+  args: {
+    ratio: 16 / 9,
   },
 };
 
-export default meta;
-type Story = StoryObj<typeof AspectRatio>;
-
+/**
+ * Use the `1:1` aspect ratio to display a square image.
+ */
 export const Square: Story = {
-  render: () => (
-    <div className="w-[500px]">
-      <AspectRatio ratio={1} className="bg-muted">
-        <img
-          src="https://placehold.co/500"
-          alt="Placeholder Alt Text"
-          className="rounded-md object-cover"
-        />
-      </AspectRatio>
-    </div>
-  ),
+  args: {
+    ratio: 1,
+  },
 };
 
+/**
+ * Use the `4:3` aspect ratio to display a landscape image.
+ */
 export const Landscape: Story = {
-  render: () => (
-    <div className="w-[500px]">
-      <AspectRatio ratio={16 / 9} className="bg-muted">
-        <img
-          src="https://placehold.co/1600x900"
-          alt="Placeholder Alt Text"
-          className="rounded-md object-cover"
-        />
-      </AspectRatio>
-    </div>
-  ),
+  args: {
+    ratio: 4 / 3,
+  },
 };
 
-export const Portrait: Story = {
-  render: () => (
-    <div className="w-[300px]">
-      <AspectRatio ratio={3 / 4} className="bg-muted">
-        <img
-          src="https://placehold.co/300x400"
-          alt="Placeholder Alt Text"
-          className="rounded-md object-cover"
-        />
-      </AspectRatio>
-    </div>
-  ),
+/**
+ * Use the `2.35:1` aspect ratio to display a cinemascope image.
+ */
+export const Cinemascope: Story = {
+  args: {
+    ratio: 2.35,
+  },
 };

@@ -1,33 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Design System/Core/AspectRatio Landscape smoke-test 1`] = `
-<div class="w-[500px]">
+exports[`Design System/Core/AspectRatio Cinemascope smoke-test 1`] = `
+<div class="w-1/2">
   <div data-radix-aspect-ratio-wrapper
-       style="position: relative; width: 100%; padding-bottom: 56.25%;"
+       style="position: relative; width: 100%; padding-bottom: 42.5532%;"
   >
-    <div class="bg-muted"
+    <div class="bg-slate-50 dark:bg-slate-800"
          style="position: absolute; inset: 0px;"
     >
       <img alt="Placeholder Alt Text"
            class="rounded-md object-cover"
-           src="https://placehold.co/1600x900"
+           src="https://placehold.co/1000"
       >
     </div>
   </div>
 </div>
 `;
 
-exports[`Design System/Core/AspectRatio Portrait smoke-test 1`] = `
-<div class="w-[300px]">
+exports[`Design System/Core/AspectRatio Default smoke-test 1`] = `
+<div class="w-1/2">
   <div data-radix-aspect-ratio-wrapper
-       style="position: relative; width: 100%; padding-bottom: 133.333%;"
+       style="position: relative; width: 100%; padding-bottom: 56.25%;"
   >
-    <div class="bg-muted"
+    <div class="bg-slate-50 dark:bg-slate-800"
          style="position: absolute; inset: 0px;"
     >
       <img alt="Placeholder Alt Text"
            class="rounded-md object-cover"
-           src="https://placehold.co/300x400"
+           src="https://placehold.co/1000"
+      >
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/AspectRatio Landscape smoke-test 1`] = `
+<div class="w-1/2">
+  <div data-radix-aspect-ratio-wrapper
+       style="position: relative; width: 100%; padding-bottom: 75%;"
+  >
+    <div class="bg-slate-50 dark:bg-slate-800"
+         style="position: absolute; inset: 0px;"
+    >
+      <img alt="Placeholder Alt Text"
+           class="rounded-md object-cover"
+           src="https://placehold.co/1000"
       >
     </div>
   </div>
@@ -35,16 +52,16 @@ exports[`Design System/Core/AspectRatio Portrait smoke-test 1`] = `
 `;
 
 exports[`Design System/Core/AspectRatio Square smoke-test 1`] = `
-<div class="w-[500px]">
+<div class="w-1/2">
   <div data-radix-aspect-ratio-wrapper
        style="position: relative; width: 100%; padding-bottom: 100%;"
   >
-    <div class="bg-muted"
+    <div class="bg-slate-50 dark:bg-slate-800"
          style="position: absolute; inset: 0px;"
     >
       <img alt="Placeholder Alt Text"
            class="rounded-md object-cover"
-           src="https://placehold.co/500"
+           src="https://placehold.co/1000"
       >
     </div>
   </div>
