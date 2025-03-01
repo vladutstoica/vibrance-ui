@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Form/Input Default smoke-test 1`] = `
+<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+       placeholder="Enter your text"
+>
+`;
+
+exports[`Design System/Form/Input Disabled smoke-test 1`] = `
+<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+       disabled
+       placeholder="Disabled input"
+>
+`;
+
+exports[`Design System/Form/Input Email smoke-test 1`] = `
+<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+       placeholder="Enter your email"
+       type="email"
+>
+`;
+
+exports[`Design System/Form/Input File smoke-test 1`] = `
+<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+       type="file"
+>
+`;
+
+exports[`Design System/Form/Input Password smoke-test 1`] = `
+<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+       placeholder="Enter your password"
+       type="password"
+>
+`;
+
+exports[`Design System/Form/Input Search smoke-test 1`] = `
+<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+       placeholder="Search..."
+       type="search"
+>
+`;
+
+exports[`Design System/Form/Input WithError smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="email-error"
+         class="font-medium text-sm"
+  >
+    Email
+  </label>
+  <input class="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm border-red-500 focus-visible:ring-red-500"
+         id="email-error"
+         placeholder="Enter your email"
+         type="email"
+  >
+  <p class="text-red-500 text-sm">
+    Please enter a valid email address
+  </p>
+</div>
+`;
+
+exports[`Design System/Form/Input WithLabel smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="email"
+         class="font-medium text-sm"
+  >
+    Email
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         id="email"
+         placeholder="Enter your email"
+         type="email"
+  >
+</div>
+`;
+
+exports[`Design System/Form/Input WithValue smoke-test 1`] = `
+<input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+       value="Hello World"
+>
+`;
+
+exports[`Form/Input Default smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-Default"
+         class="font-medium text-sm"
+  >
+    Default
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         placeholder="Enter your text"
+         id="input-Default"
+  >
+</div>
+`;
+
+exports[`Form/Input Disabled smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-Disabled"
+         class="font-medium text-sm"
+  >
+    Disabled
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         disabled
+         placeholder="Disabled input"
+         id="input-Disabled"
+  >
+</div>
+`;
+
+exports[`Form/Input Email smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-Email"
+         class="font-medium text-sm"
+  >
+    Email
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         placeholder="Enter your email"
+         id="input-Email"
+         type="email"
+  >
+</div>
+`;
+
+exports[`Form/Input File smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-File"
+         class="font-medium text-sm"
+  >
+    File
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         accept="image/*"
+         id="input-File"
+         type="file"
+  >
+</div>
+`;
+
+exports[`Form/Input Password smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-Password"
+         class="font-medium text-sm"
+  >
+    Password
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         placeholder="Enter your password"
+         id="input-Password"
+         type="password"
+  >
+</div>
+`;
+
+exports[`Form/Input Search smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-Search"
+         class="font-medium text-sm"
+  >
+    Search
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         placeholder="Search..."
+         id="input-Search"
+         type="search"
+  >
+</div>
+`;
+
+exports[`Form/Input WithError smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-With Error"
+         class="font-medium text-sm"
+  >
+    With Error
+  </label>
+  <div class="grid w-full max-w-sm gap-1.5">
+    <label for="input-error"
+           class="font-medium text-sm"
+    >
+      Email
+    </label>
+    <input class="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm border-red-500 focus-visible:ring-red-500"
+           id="input-With Error"
+           placeholder="Enter your email"
+           aria-describedby="email-error"
+           type="email"
+    >
+    <p id="email-error"
+       class="text-red-500 text-sm"
+    >
+      Please enter a valid email address
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Form/Input WithValue smoke-test 1`] = `
+<div class="grid w-full max-w-sm gap-1.5">
+  <label for="input-With Value"
+         class="font-medium text-sm"
+  >
+    With Value
+  </label>
+  <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+         aria-label="Text input with value"
+         id="input-With Value"
+         value="Hello World"
+  >
+</div>
+`;
