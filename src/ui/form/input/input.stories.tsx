@@ -4,7 +4,7 @@ import { Label } from "../label/label";
 import { Input } from "./input";
 
 const meta: Meta<typeof Input> = {
-  title: "Form/Input",
+  title: "Design System/Form/Input",
   component: Input,
   tags: ["autodocs"],
   argTypes: {
