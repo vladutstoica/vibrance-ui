@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/ContextMenu Default smoke-test 1`] = `
+<span data-state="closed"
+      class="flex h-48 w-96 items-center justify-center rounded-md border border-dashed bg-accent text-sm"
+>
+  Right click here
+</span>
+`;
+
+exports[`Design System/Core/ContextMenu WithCheckboxes smoke-test 1`] = `
+<span data-state="closed"
+      class="flex h-48 w-96 items-center justify-center rounded-md border border-dashed bg-accent text-sm"
+>
+  Right click here
+</span>
+`;
+
+exports[`Design System/Core/ContextMenu WithRadioGroup smoke-test 1`] = `
+<span data-state="closed"
+      class="flex h-48 w-96 items-center justify-center rounded-md border border-dashed bg-accent text-sm"
+>
+  Right click here
+</span>
+`;
+
+exports[`Design System/Core/ContextMenu WithShortcuts smoke-test 1`] = `
+<span data-state="closed"
+      class="flex h-48 w-96 items-center justify-center rounded-md border border-dashed bg-accent text-sm"
+>
+  Right click here
+</span>
+`;
+
+exports[`Design System/Core/ContextMenu WithSubmenu smoke-test 1`] = `
+<span data-state="closed"
+      class="flex h-48 w-96 items-center justify-center rounded-md border border-dashed bg-accent text-sm"
+>
+  Right click here
+</span>
+`;
