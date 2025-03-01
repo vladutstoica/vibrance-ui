@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/DropdownMenu Default smoke-test 1`] = `
+<button type="button"
+        id="radix-:r0:"
+        aria-haspopup="menu"
+        aria-expanded="false"
+        data-state="closed"
+>
+  Open
+</button>
+`;
+
+exports[`Design System/Core/DropdownMenu WithCheckboxes smoke-test 1`] = `
+<button type="button"
+        id="radix-:r8:"
+        aria-haspopup="menu"
+        aria-expanded="false"
+        data-state="closed"
+>
+  Open
+</button>
+`;
+
+exports[`Design System/Core/DropdownMenu WithRadioItems smoke-test 1`] = `
+<button type="button"
+        id="radix-:r6:"
+        aria-haspopup="menu"
+        aria-expanded="false"
+        data-state="closed"
+>
+  Open
+</button>
+`;
+
+exports[`Design System/Core/DropdownMenu WithShortcuts smoke-test 1`] = `
+<button type="button"
+        id="radix-:r2:"
+        aria-haspopup="menu"
+        aria-expanded="false"
+        data-state="closed"
+>
+  Open
+</button>
+`;
+
+exports[`Design System/Core/DropdownMenu WithSubmenus smoke-test 1`] = `
+<button type="button"
+        id="radix-:r4:"
+        aria-haspopup="menu"
+        aria-expanded="false"
+        data-state="closed"
+>
+  Open
+</button>
+`;
