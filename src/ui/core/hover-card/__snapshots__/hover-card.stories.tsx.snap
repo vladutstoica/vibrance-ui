@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ui/HoverCard Default smoke-test 1`] = `
+exports[`Design System/Core/HoverCard Default smoke-test 1`] = `
 <a data-state="closed">
   Hover
 </a>
 `;
 
-exports[`ui/HoverCard Instant smoke-test 1`] = `
+exports[`Design System/Core/HoverCard Instant smoke-test 1`] = `
 <a data-state="closed">
   Hover
 </a>

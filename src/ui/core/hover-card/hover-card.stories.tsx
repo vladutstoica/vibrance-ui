@@ -7,7 +7,7 @@ import { HoverCard, HoverCardContent, HoverCardTrigger } from "./hover-card";
  * For sighted users to preview content available behind a link.
  */
 const meta = {
-  title: "ui/HoverCard",
+  title: "Design System/Core/HoverCard",
   component: HoverCard,
   tags: ["autodocs"],
   argTypes: {},
