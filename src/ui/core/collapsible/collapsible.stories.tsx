@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Info } from "lucide-react";
 
+import React from "react";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "./collapsible";
-import React from "react";
 
 /**
  * An interactive component which expands/collapses a panel.
