@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Alert Default smoke-test 1`] = `
+<div role="alert"
+     class="relative w-full rounded-lg border px-4 py-3 text-sm [&amp;>svg+div]:translate-y-[-3px] [&amp;>svg]:absolute [&amp;>svg]:left-4 [&amp;>svg]:top-4 [&amp;>svg]:text-foreground [&amp;>svg~*]:pl-7 bg-background text-foreground"
+>
+  <h5 class="mb-1 font-medium leading-none tracking-tight">
+    Heads up!
+  </h5>
+  <div class="text-sm [&amp;_p]:leading-relaxed">
+    You can add components to your app using the cli.
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/Alert Destructive smoke-test 1`] = `
+<div role="alert"
+     class="relative w-full rounded-lg border px-4 py-3 text-sm [&amp;>svg+div]:translate-y-[-3px] [&amp;>svg]:absolute [&amp;>svg]:left-4 [&amp;>svg]:top-4 [&amp;>svg~*]:pl-7 border-destructive/50 text-destructive dark:border-destructive [&amp;>svg]:text-destructive"
+>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       width="24"
+       height="24"
+       viewbox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       class="lucide lucide-circle-alert h-4 w-4"
+  >
+    <circle cx="12"
+            cy="12"
+            r="10"
+    >
+    </circle>
+    <line x1="12"
+          x2="12"
+          y1="8"
+          y2="12"
+    >
+    </line>
+    <line x1="12"
+          x2="12.01"
+          y1="16"
+          y2="16"
+    >
+    </line>
+  </svg>
+  <h5 class="mb-1 font-medium leading-none tracking-tight">
+    Error
+  </h5>
+  <div class="text-sm [&amp;_p]:leading-relaxed">
+    Your session has expired. Please log in again.
+  </div>
+</div>
+`;
