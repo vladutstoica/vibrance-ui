@@ -15,7 +15,7 @@ import {
  * A collection of links for navigating websites.
  */
 const meta = {
-  title: "ui/NavigationMenu",
+  title: "Design System/Core/NavigationMenu",
   component: NavigationMenu,
   tags: ["autodocs"],
   argTypes: {},

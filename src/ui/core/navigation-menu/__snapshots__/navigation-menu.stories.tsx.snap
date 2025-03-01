@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ui/NavigationMenu Default smoke-test 1`] = `
+exports[`Design System/Core/NavigationMenu Default smoke-test 1`] = `
 <nav aria-label="Main"
      data-orientation="horizontal"
      dir="ltr"
