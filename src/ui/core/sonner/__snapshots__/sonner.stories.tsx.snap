@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Sonner Default smoke-test 1`] = `
+<div class="flex min-h-96 items-center justify-center space-x-2">
+  <button type="button">
+    Show Toast
+  </button>
+  <section aria-label="Notifications alt+T"
+           tabindex="-1"
+           aria-live="polite"
+           aria-relevant="additions text"
+           aria-atomic="false"
+  >
+  </section>
+</div>
+`;
