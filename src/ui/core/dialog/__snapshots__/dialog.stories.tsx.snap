@@ -10,14 +10,3 @@ exports[`Design System/Core/Dialog Default smoke-test 1`] = `
   Open
 </button>
 `;
-
-exports[`ui/Dialog Default smoke-test 1`] = `
-<button type="button"
-        aria-haspopup="dialog"
-        aria-expanded="false"
-        aria-controls="radix-:r0:"
-        data-state="closed"
->
-  Open
-</button>
-`;
