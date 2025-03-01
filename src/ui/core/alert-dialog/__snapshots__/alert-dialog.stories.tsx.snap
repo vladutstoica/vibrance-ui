@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/AlertDialog Default smoke-test 1`] = `
+<button type="button"
+        aria-haspopup="dialog"
+        aria-expanded="false"
+        aria-controls="radix-:r0:"
+        data-state="closed"
+>
+  Open
+</button>
+`;
