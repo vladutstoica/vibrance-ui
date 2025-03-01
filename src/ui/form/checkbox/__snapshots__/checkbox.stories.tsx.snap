@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Design System/Form/Checkbox Default smoke-test 1`] = `
-<div class="flex items-center space-x-2">
+<div class="flex space-x-2">
   <button type="button"
           role="checkbox"
           aria-checked="false"
           data-state="unchecked"
           value="on"
-          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary shadow focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
           id="terms"
   >
   </button>
-  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-         for="terms"
+  <label for="terms"
+         class="font-medium text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-50"
   >
     Accept terms and conditions
   </label>
@@ -20,7 +20,7 @@ exports[`Design System/Form/Checkbox Default smoke-test 1`] = `
 `;
 
 exports[`Design System/Form/Checkbox Disabled smoke-test 1`] = `
-<div class="flex items-center space-x-2">
+<div class="flex space-x-2">
   <button type="button"
           role="checkbox"
           aria-checked="false"
@@ -28,104 +28,14 @@ exports[`Design System/Form/Checkbox Disabled smoke-test 1`] = `
           data-disabled
           disabled
           value="on"
-          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
-          id="terms-disabled"
+          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary shadow focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+          id="disabled-terms"
   >
   </button>
-  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-         for="terms-disabled"
+  <label for="disabled-terms"
+         class="font-medium text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-50"
   >
     Accept terms and conditions
   </label>
-</div>
-`;
-
-exports[`Design System/Form/Checkbox DisabledChecked smoke-test 1`] = `
-<div class="flex items-center space-x-2">
-  <button type="button"
-          role="checkbox"
-          aria-checked="true"
-          data-state="checked"
-          data-disabled
-          disabled
-          value="on"
-          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
-          id="terms-disabled-checked"
-  >
-    <span data-state="checked"
-          data-disabled
-          class="flex items-center justify-center text-current"
-          style="pointer-events: none;"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg"
-           width="24"
-           height="24"
-           viewbox="0 0 24 24"
-           fill="none"
-           stroke="currentColor"
-           stroke-width="2"
-           stroke-linecap="round"
-           stroke-linejoin="round"
-           class="lucide lucide-check h-4 w-4"
-      >
-        <path d="M20 6 9 17l-5-5">
-        </path>
-      </svg>
-    </span>
-  </button>
-  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-         for="terms-disabled-checked"
-  >
-    Accept terms and conditions
-  </label>
-</div>
-`;
-
-exports[`Design System/Form/Checkbox Required smoke-test 1`] = `
-<div class="flex items-center space-x-2">
-  <button type="button"
-          role="checkbox"
-          aria-checked="false"
-          aria-required="true"
-          data-state="unchecked"
-          value="on"
-          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
-          id="terms-required"
-  >
-  </button>
-  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-         for="terms-required"
-  >
-    Accept terms and conditions
-    <span class="text-red-500"
-          aria-hidden="true"
-    >
-      *
-    </span>
-  </label>
-</div>
-`;
-
-exports[`Design System/Form/Checkbox WithText smoke-test 1`] = `
-<div class="items-top flex space-x-2">
-  <button type="button"
-          role="checkbox"
-          aria-checked="false"
-          data-state="unchecked"
-          value="on"
-          class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
-          id="terms1"
-  >
-  </button>
-  <div class="grid gap-1.5 leading-none">
-    <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-           for="terms1"
-    >
-      Accept terms and conditions
-    </label>
-    <p class="text-muted-foreground text-sm">
-      You agree to our Terms of Service and Privacy Policy.
-    </p>
-  </div>
 </div>
 `;
