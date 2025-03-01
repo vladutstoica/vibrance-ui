@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Avatar Default smoke-test 1`] = `
+<span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
+  <img class="aspect-square h-full w-full"
+       alt="Avatar"
+       src="https://placehold.co/1"
+  >
+</span>
+`;
