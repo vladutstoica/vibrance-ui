@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ui/Popover Default smoke-test 1`] = `
+exports[`Design System/Core/Popover Default smoke-test 1`] = `
 <button type="button"
         aria-haspopup="dialog"
         aria-expanded="false"

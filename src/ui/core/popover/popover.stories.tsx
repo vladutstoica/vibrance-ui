@@ -7,7 +7,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "./popover";
  * Displays rich content in a portal, triggered by a button.
  */
 const meta = {
-  title: "ui/Popover",
+  title: "Design System/Core/Popover",
   component: Popover,
   tags: ["autodocs"],
   argTypes: {},
