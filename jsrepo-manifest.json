@@ -27,6 +27,24 @@
 					}
 				},
 				{
+					"name": "aspect-ratio",
+					"directory": "src/ui/core/aspect-ratio",
+					"category": "core",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"aspect-ratio.stories.tsx",
+						"aspect-ratio.tsx"
+					],
+					"localDependencies": [],
+					"dependencies": [
+						"@radix-ui/react-aspect-ratio@^1.1.2"
+					],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
 					"name": "button",
 					"directory": "src/ui/core/button",
 					"category": "core",
