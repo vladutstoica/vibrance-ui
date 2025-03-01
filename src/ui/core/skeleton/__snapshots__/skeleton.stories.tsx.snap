@@ -12,16 +12,3 @@ exports[`Design System/Core/Skeleton Default smoke-test 1`] = `
   </div>
 </div>
 `;
-
-exports[`ui/Skeleton Default smoke-test 1`] = `
-<div class="flex items-center space-x-4">
-  <div class="animate-pulse bg-primary/10 h-12 w-12 rounded-full">
-  </div>
-  <div class="space-y-2">
-    <div class="animate-pulse rounded-md bg-primary/10 h-4 w-[250px]">
-    </div>
-    <div class="animate-pulse rounded-md bg-primary/10 h-4 w-[200px]">
-    </div>
-  </div>
-</div>
-`;
