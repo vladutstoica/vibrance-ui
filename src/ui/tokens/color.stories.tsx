@@ -31,7 +31,7 @@ const meta: Meta<{
             <td className="px-6 py-4">{name}</td>
             <td className="px-6 py-4">
               <div className="flex overflow-x-clip rounded-md border shadow">
-                {Object.entries(colors).map(([name, value], idx) => {
+                {Object.entries(colors).map(([colorName, value]) => {
                   const isHex = value.startsWith("#");
                   const style = window.getComputedStyle(document.body);
                   const variable = value.match(/var\(([^)]+)\)/)?.[1] ?? "";
@@ -44,12 +44,15 @@ const meta: Meta<{
                     ? value
                     : hslToHex(Number(h), Number(s), Number(l));
                   return (
-                    <div key={idx} className="flex w-full flex-col pb-2">
+                    <div
+                      key={`${name}-${colorName}`}
+                      className="flex w-full flex-col pb-2"
+                    >
                       <div
                         className="h-16 w-full"
                         style={{ backgroundColor: value }}
-                      ></div>
-                      <p className="text-center font-semibold">{name}</p>
+                      />
+                      <p className="text-center font-semibold">{colorName}</p>
                       <p className="text-center text-xs opacity-70">
                         {variable}
                       </p>
