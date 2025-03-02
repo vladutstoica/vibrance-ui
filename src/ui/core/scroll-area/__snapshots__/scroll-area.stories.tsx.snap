@@ -18,8 +18,13 @@ exports[`Design System/Core/ScrollArea Always smoke-test 1`] = `
   </div>
   <div data-orientation="vertical"
        class="flex touch-none select-none transition-colors h-full w-2.5 border-l border-l-transparent p-[1px]"
-       style="position: absolute; top: 0px; right: 0px; bottom: var(--radix-scroll-area-corner-height); --radix-scroll-area-thumb-height: 18px;"
+       style="position: absolute; top: 0px; right: 0px; bottom: var(--radix-scroll-area-corner-height); --radix-scroll-area-thumb-height: 30.354166666666664px;"
   >
+    <div data-state="visible"
+         class="relative flex-1 rounded-full bg-border"
+         style="width: var(--radix-scroll-area-thumb-width); height: var(--radix-scroll-area-thumb-height); transform: translate3d(0px, 0px, 0px);"
+    >
+    </div>
   </div>
 </div>
 `;
