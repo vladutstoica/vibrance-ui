@@ -6,7 +6,7 @@ exports[`Design System/Core/Card Default smoke-test 1`] = `
     <div class="font-semibold leading-none tracking-tight">
       Notifications
     </div>
-    <div class="text-sm text-muted-foreground">
+    <div class="text-muted-foreground text-sm">
       You have 3 unread messages.
     </div>
   </div>
