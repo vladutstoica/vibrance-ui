@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Fields/Textarea Default smoke-test 1`] = `
+<textarea class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+          placeholder="Type your message here."
+>
+</textarea>
+`;
+
+exports[`Design System/Fields/Textarea Disabled smoke-test 1`] = `
+<textarea class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+          placeholder="Type your message here."
+          disabled
+>
+</textarea>
+`;
+
+exports[`Design System/Fields/Textarea WithButton smoke-test 1`] = `
+<div class="grid w-full gap-2">
+  <textarea class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+            placeholder="Type your message here."
+  >
+  </textarea>
+  <button class="rounded bg-primary px-4 py-2 text-primary-foreground"
+          type="submit"
+  >
+    Send Message
+  </button>
+</div>
+`;
+
+exports[`Design System/Fields/Textarea WithLabel smoke-test 1`] = `
+<div class="grid w-full gap-1.5">
+  <label for="message">
+    Your message
+  </label>
+  <textarea class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+            placeholder="Type your message here."
+            id="message"
+  >
+  </textarea>
+</div>
+`;
+
+exports[`Design System/Fields/Textarea WithText smoke-test 1`] = `
+<div class="grid w-full gap-1.5">
+  <label for="message-2">
+    Your Message
+  </label>
+  <textarea class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+            placeholder="Type your message here."
+            id="message-2"
+  >
+  </textarea>
+  <p class="text-slate-500 text-sm">
+    Your message will be copied to the support team.
+  </p>
+</div>
+`;
