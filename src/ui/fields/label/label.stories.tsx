@@ -6,7 +6,7 @@ import { Label } from "./label";
  * Renders an accessible label associated with controls.
  */
 const meta = {
-  title: "Design System/Form/Label",
+  title: "Design System/Fields/Label",
   component: Label,
   tags: ["autodocs"],
   argTypes: {

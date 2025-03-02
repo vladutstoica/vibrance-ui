@@ -13,7 +13,7 @@ import {
  * Accessible one-time password component with copy paste functionality.
  */
 const meta = {
-  title: "Design System/Form/InputOTP",
+  title: "Design System/Fields/InputOTP",
   component: InputOTP,
   tags: ["autodocs"],
   argTypes: {},

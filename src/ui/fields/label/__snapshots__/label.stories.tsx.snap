@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Design System/Form/Label Default smoke-test 1`] = `
+exports[`Design System/Fields/Label Default smoke-test 1`] = `
 <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
        for="email"
 >

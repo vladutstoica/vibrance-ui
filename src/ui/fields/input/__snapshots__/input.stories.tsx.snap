@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Design System/Form/Input Default smoke-test 1`] = `
+exports[`Design System/Fields/Input Default smoke-test 1`] = `
 <input class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm w-96"
        placeholder="Email"
        type="email"
 >
 `;
 
-exports[`Design System/Form/Input Disabled smoke-test 1`] = `
+exports[`Design System/Fields/Input Disabled smoke-test 1`] = `
 <input class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm w-96"
        placeholder="Email"
        disabled
@@ -15,7 +15,7 @@ exports[`Design System/Form/Input Disabled smoke-test 1`] = `
 >
 `;
 
-exports[`Design System/Form/Input WithButton smoke-test 1`] = `
+exports[`Design System/Fields/Input WithButton smoke-test 1`] = `
 <div class="flex items-center space-x-2">
   <input class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:font-medium file:text-foreground file:text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm w-96"
          placeholder="Email"
@@ -29,7 +29,7 @@ exports[`Design System/Form/Input WithButton smoke-test 1`] = `
 </div>
 `;
 
-exports[`Design System/Form/Input WithHelperText smoke-test 1`] = `
+exports[`Design System/Fields/Input WithHelperText smoke-test 1`] = `
 <div class="grid items-center gap-1.5">
   <label for="email-2">
     Email
@@ -45,7 +45,7 @@ exports[`Design System/Form/Input WithHelperText smoke-test 1`] = `
 </div>
 `;
 
-exports[`Design System/Form/Input WithLabel smoke-test 1`] = `
+exports[`Design System/Fields/Input WithLabel smoke-test 1`] = `
 <div class="grid items-center gap-1.5">
   <label for="email">
     Email

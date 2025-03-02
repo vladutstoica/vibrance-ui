@@ -7,7 +7,7 @@ import { Checkbox } from "./checkbox";
  * A control that allows the user to toggle between checked and not checked.
  */
 const meta: Meta<typeof Checkbox> = {
-  title: "Design System/Form/Checkbox",
+  title: "Design System/Fields/Checkbox",
   component: Checkbox,
   tags: ["autodocs"],
   argTypes: {},
