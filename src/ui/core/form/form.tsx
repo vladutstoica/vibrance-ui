@@ -12,8 +12,8 @@ import {
   useFormContext,
 } from "react-hook-form";
 
-import { cn } from "../../../../../Downloads/shadcn-storybook-registry-main/components/lib/utils.ts";
-import { Label } from "../../../../../Downloads/shadcn-storybook-registry-main/components/ui/label.tsx";
+import { cn } from "../../../utils/cn";
+import { Label } from "../../fields/label/label";
 
 const Form = FormProvider;
 
@@ -136,7 +136,7 @@ const FormDescription = React.forwardRef<
     <p
       ref={ref}
       id={formDescriptionId}
-      className={cn("text-[0.8rem] text-muted-foreground", className)}
+      className={cn("text-muted-foreground text-sm", className)}
       {...props}
     />
   );
@@ -148,7 +148,7 @@ const FormMessage = React.forwardRef<
   React.HTMLAttributes<HTMLParagraphElement>
 >(({ className, children, ...props }, ref) => {
   const { error, formMessageId } = useFormField();
-  const body = error ? String(error?.message) : children;
+  const body = error ? String(error?.message ?? "") : children;
 
   if (!body) {
     return null;
@@ -158,7 +158,7 @@ const FormMessage = React.forwardRef<
     <p
       ref={ref}
       id={formMessageId}
-      className={cn("font-medium text-[0.8rem] text-destructive", className)}
+      className={cn("font-medium text-destructive text-sm", className)}
       {...props}
     >
       {body}
