@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Toast Default smoke-test 1`] = `
+<div>
+  <button>
+    Show Toast
+  </button>
+  <div role="region"
+       aria-label="Notifications (F8)"
+       tabindex="-1"
+       style="pointer-events: none;"
+  >
+    <ol tabindex="-1"
+        class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:top-auto sm:right-0 sm:bottom-0 sm:flex-col md:max-w-[420px]"
+    >
+    </ol>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/Toast Destructive smoke-test 1`] = `
+<div>
+  <button>
+    Show Toast
+  </button>
+  <div role="region"
+       aria-label="Notifications (F8)"
+       tabindex="-1"
+       style="pointer-events: none;"
+  >
+    <ol tabindex="-1"
+        class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:top-auto sm:right-0 sm:bottom-0 sm:flex-col md:max-w-[420px]"
+    >
+    </ol>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/Toast WithAction smoke-test 1`] = `
+<div>
+  <button>
+    Show Toast
+  </button>
+  <div role="region"
+       aria-label="Notifications (F8)"
+       tabindex="-1"
+       style="pointer-events: none;"
+  >
+    <ol tabindex="-1"
+        class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:top-auto sm:right-0 sm:bottom-0 sm:flex-col md:max-w-[420px]"
+    >
+    </ol>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/Toast WithTitle smoke-test 1`] = `
+<div>
+  <button>
+    Show Toast
+  </button>
+  <div role="region"
+       aria-label="Notifications (F8)"
+       tabindex="-1"
+       style="pointer-events: none;"
+  >
+    <ol tabindex="-1"
+        class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:top-auto sm:right-0 sm:bottom-0 sm:flex-col md:max-w-[420px]"
+    >
+    </ol>
+  </div>
+</div>
+`;
