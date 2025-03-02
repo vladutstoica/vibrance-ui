@@ -11,7 +11,7 @@ const meta: Meta<{
     colors: Record<string, string>;
   }[];
 }> = {
-  title: "design/Color",
+  title: "Design Tokens/Color",
   argTypes: {},
   render: (args) => (
     <table className="w-full table-auto text-left text-foreground text-sm rtl:text-right">

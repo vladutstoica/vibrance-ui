@@ -13,7 +13,7 @@ const meta: Meta<{
     pixels: number;
   }[];
 }> = {
-  title: "design/Padding",
+  title: "Design Tokens/Padding",
   argTypes: {
     scale: {
       control: {

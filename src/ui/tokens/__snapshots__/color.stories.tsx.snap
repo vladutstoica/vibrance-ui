@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`design/Color Functional smoke-test 1`] = `
+exports[`Design Tokens/Color Functional smoke-test 1`] = `
 <table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
   <thead class="bg-muted text-xs uppercase">
     <tr>
@@ -473,7 +473,7 @@ exports[`design/Color Functional smoke-test 1`] = `
 </table>
 `;
 
-exports[`design/Color Tailwind smoke-test 1`] = `
+exports[`Design Tokens/Color Tailwind smoke-test 1`] = `
 <table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
   <thead class="bg-muted text-xs uppercase">
     <tr>

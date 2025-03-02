@@ -14,7 +14,7 @@ const meta: Meta<{
     value: string;
   }[];
 }> = {
-  title: "design/Typography",
+  title: "Design Tokens/Typography",
   argTypes: {},
   args: {
     children: "Typeface",

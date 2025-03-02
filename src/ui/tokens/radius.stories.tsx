@@ -12,7 +12,7 @@ const meta: Meta<{
     value: string;
   }[];
 }> = {
-  title: "design/Radius",
+  title: "Design Tokens/Radius",
   argTypes: {},
   args: {
     radius: Object.keys(fullConfig.theme.borderRadius).map((name) => {

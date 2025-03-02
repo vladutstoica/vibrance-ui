@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`design/Typography FontFamily smoke-test 1`] = `
+exports[`Design Tokens/Typography FontFamily smoke-test 1`] = `
 <table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
   <thead class="bg-muted text-xs uppercase">
     <tr>
@@ -73,7 +73,7 @@ exports[`design/Typography FontFamily smoke-test 1`] = `
 </table>
 `;
 
-exports[`design/Typography FontSize smoke-test 1`] = `
+exports[`Design Tokens/Typography FontSize smoke-test 1`] = `
 <table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
   <thead class="bg-muted text-xs uppercase">
     <tr>
@@ -296,7 +296,7 @@ exports[`design/Typography FontSize smoke-test 1`] = `
 </table>
 `;
 
-exports[`design/Typography FontWeight smoke-test 1`] = `
+exports[`Design Tokens/Typography FontWeight smoke-test 1`] = `
 <table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
   <thead class="bg-muted text-xs uppercase">
     <tr>

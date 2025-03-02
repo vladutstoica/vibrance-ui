@@ -12,7 +12,7 @@ const meta: Meta<{
     value: string;
   }[];
 }> = {
-  title: "design/Shadow",
+  title: "Design Tokens/Shadow",
   argTypes: {},
   args: {
     shadow: Object.keys(fullConfig.theme.boxShadow).map((name) => {
