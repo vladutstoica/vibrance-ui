@@ -562,7 +562,7 @@ exports[`Design System/Application/Chart StackedAreaChart smoke-test 1`] = `
               <clipPath id="animationClipPath-recharts-area-2">
                 <rect x="12"
                       y="0"
-                      width="484.8155904289641"
+                      width="1224"
                       height="673"
                 >
                 </rect>
@@ -600,7 +600,7 @@ exports[`Design System/Application/Chart StackedAreaChart smoke-test 1`] = `
               <clipPath id="animationClipPath-recharts-area-3">
                 <rect x="12"
                       y="0"
-                      width="484.8155904289641"
+                      width="1224"
                       height="583"
                 >
                 </rect>
