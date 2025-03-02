@@ -2,7 +2,7 @@
 
 exports[`Design System/Core/Toast Default smoke-test 1`] = `
 <div>
-  <button>
+  <button type="button">
     Show Toast
   </button>
   <div role="region"
@@ -20,7 +20,7 @@ exports[`Design System/Core/Toast Default smoke-test 1`] = `
 
 exports[`Design System/Core/Toast Destructive smoke-test 1`] = `
 <div>
-  <button>
+  <button type="button">
     Show Toast
   </button>
   <div role="region"
@@ -38,7 +38,7 @@ exports[`Design System/Core/Toast Destructive smoke-test 1`] = `
 
 exports[`Design System/Core/Toast WithAction smoke-test 1`] = `
 <div>
-  <button>
+  <button type="button">
     Show Toast
   </button>
   <div role="region"
@@ -56,7 +56,7 @@ exports[`Design System/Core/Toast WithAction smoke-test 1`] = `
 
 exports[`Design System/Core/Toast WithTitle smoke-test 1`] = `
 <div>
-  <button>
+  <button type="button">
     Show Toast
   </button>
   <div role="region"

@@ -53,9 +53,10 @@ exports[`Design System/Core/Breadcrumb Default smoke-test 1`] = `
     </li>
     <li class="inline-flex items-center gap-1.5">
       <span role="link"
+            tabindex="0"
             aria-disabled="true"
             aria-current="page"
-            class="font-normal text-foreground"
+            class="text-muted-foreground transition-colors hover:text-foreground"
       >
         Breadcrumb
       </span>
@@ -135,9 +136,10 @@ exports[`Design System/Core/Breadcrumb WithCustomSeparator smoke-test 1`] = `
     </li>
     <li class="inline-flex items-center gap-1.5">
       <span role="link"
+            tabindex="0"
             aria-disabled="true"
             aria-current="page"
-            class="font-normal text-foreground"
+            class="text-muted-foreground transition-colors hover:text-foreground"
       >
         Breadcrumb
       </span>
