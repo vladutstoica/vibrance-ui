@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ui/Tooltip Bottom smoke-test 1`] = `
+exports[`Design System/Core/Tooltip Bottom smoke-test 1`] = `
 <button data-state="closed">
   <svg xmlns="http://www.w3.org/2000/svg"
        width="24"
@@ -24,7 +24,7 @@ exports[`ui/Tooltip Bottom smoke-test 1`] = `
 </button>
 `;
 
-exports[`ui/Tooltip Default smoke-test 1`] = `
+exports[`Design System/Core/Tooltip Default smoke-test 1`] = `
 <button data-state="closed">
   <svg xmlns="http://www.w3.org/2000/svg"
        width="24"
@@ -48,7 +48,7 @@ exports[`ui/Tooltip Default smoke-test 1`] = `
 </button>
 `;
 
-exports[`ui/Tooltip Left smoke-test 1`] = `
+exports[`Design System/Core/Tooltip Left smoke-test 1`] = `
 <button data-state="closed">
   <svg xmlns="http://www.w3.org/2000/svg"
        width="24"
@@ -72,7 +72,7 @@ exports[`ui/Tooltip Left smoke-test 1`] = `
 </button>
 `;
 
-exports[`ui/Tooltip Right smoke-test 1`] = `
+exports[`Design System/Core/Tooltip Right smoke-test 1`] = `
 <button data-state="closed">
   <svg xmlns="http://www.w3.org/2000/svg"
        width="24"

@@ -14,7 +14,7 @@ import {
  * receives keyboard focus or the mouse hovers over it.
  */
 const meta: Meta<typeof TooltipContent> = {
-  title: "ui/Tooltip",
+  title: "Design System/Core/Tooltip",
   component: TooltipContent,
   tags: ["autodocs"],
   argTypes: {
