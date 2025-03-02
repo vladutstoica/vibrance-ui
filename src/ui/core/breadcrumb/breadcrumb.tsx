@@ -64,9 +64,13 @@ const BreadcrumbPage = React.forwardRef<
   <span
     ref={ref}
     role="link"
+    tabIndex={0}
     aria-disabled="true"
     aria-current="page"
-    className={cn("font-normal text-foreground", className)}
+    className={cn(
+      "text-muted-foreground transition-colors hover:text-foreground",
+      className,
+    )}
     {...props}
   />
 ));
