@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`design/Shadow Core smoke-test 1`] = `
+<table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
+  <thead class="bg-muted text-xs uppercase">
+    <tr>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        Name
+      </th>
+      <th scope="col"
+          class="hidden px-6 py-3 sm:table-cell"
+      >
+        Size
+      </th>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        <span class="sr-only">
+          Preview
+        </span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        sm
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        0 1px 2px 0 rgb(0 0 0 / 0.05)
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;"
+        >
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        DEFAULT
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        0 1px 3px 0 rgb(0 0 0 / 0.1),
+ 0 1px 2px -1px rgb(0 0 0 / 0.1)
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;"
+        >
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        md
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        0 4px 6px -1px rgb(0 0 0 / 0.1),
+ 0 2px 4px -2px rgb(0 0 0 / 0.1)
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;"
+        >
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        lg
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        0 10px 15px -3px rgb(0 0 0 / 0.1),
+ 0 4px 6px -4px rgb(0 0 0 / 0.1)
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;"
+        >
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        xl
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        0 20px 25px -5px rgb(0 0 0 / 0.1),
+ 0 8px 10px -6px rgb(0 0 0 / 0.1)
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;"
+        >
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        2xl
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        0 25px 50px -12px rgb(0 0 0 / 0.25)
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;"
+        >
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        inner
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        inset 0 2px 4px 0 rgb(0 0 0 / 0.05)
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px 0px inset;"
+        >
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        none
+      </td>
+      <td class="hidden whitespace-pre-line px-6 py-4 sm:table-cell">
+        none
+      </td>
+      <td class="px-6 py-4">
+        <div class="size-20 rounded border bg-background"
+             style="box-shadow: none;"
+        >
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

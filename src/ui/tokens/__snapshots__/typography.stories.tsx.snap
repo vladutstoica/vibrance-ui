@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`design/Typography FontFamily smoke-test 1`] = `
+<table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
+  <thead class="bg-muted text-xs uppercase">
+    <tr>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        Name
+      </th>
+      <th scope="col"
+          class="hidden px-6 py-3 sm:table-cell"
+      >
+        Property
+      </th>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        <span class="sr-only">
+          Preview
+        </span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        sans
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        serif
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-family: ui-serif, Georgia, Cambria, &quot;Times New Roman&quot;, Times, serif;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        mono
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &quot;Liberation Mono&quot;, &quot;Courier New&quot;, monospace;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`design/Typography FontSize smoke-test 1`] = `
+<table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
+  <thead class="bg-muted text-xs uppercase">
+    <tr>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        Name
+      </th>
+      <th scope="col"
+          class="hidden px-6 py-3 sm:table-cell"
+      >
+        Property
+      </th>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        <span class="sr-only">
+          Preview
+        </span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        xs
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.75rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 0.75rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        sm
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.875rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 0.875rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        base
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 1rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        lg
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1.125rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 1.125rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1.25rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 1.25rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        2xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1.5rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 1.5rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        3xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1.875rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 1.875rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        4xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        2.25rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 2.25rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        5xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        3rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 3rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        6xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        3.75rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 3.75rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        7xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        4.5rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 4.5rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        8xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        6rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 6rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        9xl
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        8rem
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-size: 8rem;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`design/Typography FontWeight smoke-test 1`] = `
+<table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
+  <thead class="bg-muted text-xs uppercase">
+    <tr>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        Name
+      </th>
+      <th scope="col"
+          class="hidden px-6 py-3 sm:table-cell"
+      >
+        Property
+      </th>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        <span class="sr-only">
+          Preview
+        </span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        thin
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        100
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 100;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        extralight
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        200
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 200;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        light
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        300
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 300;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        normal
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        400
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 400;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        medium
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        500
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 500;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        semibold
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        600
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 600;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        bold
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        700
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 700;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        extrabold
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        800
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 800;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        black
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        900
+      </td>
+      <td class="px-6 py-4 leading-tight">
+        <p class="line-clamp-1"
+           style="font-weight: 900;"
+        >
+          Typeface
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

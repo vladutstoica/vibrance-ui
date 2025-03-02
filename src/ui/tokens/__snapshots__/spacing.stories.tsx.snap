@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`design/Padding Core smoke-test 1`] = `
+<table class="w-full table-auto text-left text-foreground text-sm rtl:text-right">
+  <thead class="bg-muted text-xs uppercase">
+    <tr>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        Name
+      </th>
+      <th scope="col"
+          class="hidden px-6 py-3 sm:table-cell"
+      >
+        Size
+      </th>
+      <th scope="col"
+          class="hidden px-6 py-3 sm:table-cell"
+      >
+        Pixel
+      </th>
+      <th scope="col"
+          class="px-6 py-3"
+      >
+        <span class="sr-only">
+          Preview
+        </span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        0
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0px
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0px;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        px
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1px
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 1px;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        0.5
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.125rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        2px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0.125rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        1
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.25rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        4px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0.25rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        1.5
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.375rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        6px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0.375rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        2
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.5rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        8px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0.5rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        2.5
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.625rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        10px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0.625rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        3
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.75rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        12px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0.75rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        3.5
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        0.875rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        14px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 0.875rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        4
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        16px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 1rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        5
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1.25rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        20px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 1.25rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        6
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1.5rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        24px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 1.5rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        7
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        1.75rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        28px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 1.75rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        8
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        2rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        32px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 2rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        9
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        2.25rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        36px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 2.25rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        10
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        2.5rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        40px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 2.5rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        11
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        2.75rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        44px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 2.75rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        12
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        3rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        48px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 3rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        14
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        3.5rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        56px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 3.5rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        16
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        4rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        64px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 4rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        20
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        5rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        80px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 5rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        24
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        6rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        96px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 6rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        28
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        7rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        112px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 7rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        32
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        8rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        128px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 8rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        36
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        9rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        144px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 9rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        40
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        10rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        160px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 10rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        44
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        11rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        176px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 11rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        48
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        12rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        192px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 12rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        52
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        13rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        208px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 13rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        56
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        14rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        224px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 14rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        60
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        15rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        240px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 15rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        64
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        16rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        256px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 16rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        72
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        18rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        288px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 18rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        80
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        20rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        320px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 20rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="border-b bg-card">
+      <td class="px-6 py-4">
+        96
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        24rem
+      </td>
+      <td class="hidden px-6 py-4 sm:table-cell">
+        384px
+      </td>
+      <td class="px-6 py-4">
+        <div class="border bg-muted">
+          <div class="h-4 bg-primary"
+               style="width: 24rem;"
+          >
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
