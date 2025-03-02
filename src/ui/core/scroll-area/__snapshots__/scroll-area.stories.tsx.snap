@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/ScrollArea Always smoke-test 1`] = `
+<div dir="ltr"
+     class="relative overflow-hidden h-32 w-80 rounded-md border p-4"
+     style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+>
+  <style>
+    [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+  </style>
+  <div data-radix-scroll-area-viewport
+       class="h-full w-full rounded-[inherit]"
+       style="overflow: hidden scroll;"
+  >
+    <div style="min-width: 100%; display: table;">
+      Jokester began sneaking into the castle in the middle of the night and leaving jokes all over the place: under the king's pillow, in his soup, even in the royal toilet. The king was furious, but he couldn't seem to stop Jokester. And then, one day, the people of the kingdom discovered that the jokes left by Jokester were so funny that they couldn't help but laugh. And once they started laughing, they couldn't stop. The king was so angry that he banished Jokester from the kingdom, but the people still laughed, and they laughed, and they laughed. And they all lived happily ever after.
+    </div>
+  </div>
+  <div data-orientation="vertical"
+       class="flex touch-none select-none transition-colors h-full w-2.5 border-l border-l-transparent p-[1px]"
+       style="position: absolute; top: 0px; right: 0px; bottom: var(--radix-scroll-area-corner-height); --radix-scroll-area-thumb-height: 30.354166666666664px;"
+  >
+    <div data-state="visible"
+         class="relative flex-1 rounded-full bg-border"
+         style="width: var(--radix-scroll-area-thumb-width); height: var(--radix-scroll-area-thumb-height); transform: translate3d(0px, 0px, 0px);"
+    >
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/ScrollArea Default smoke-test 1`] = `
+<div dir="ltr"
+     class="relative overflow-hidden h-32 w-80 rounded-md border p-4"
+     style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+>
+  <style>
+    [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+  </style>
+  <div data-radix-scroll-area-viewport
+       class="h-full w-full rounded-[inherit]"
+       style="overflow: hidden scroll;"
+  >
+    <div style="min-width: 100%; display: table;">
+      Jokester began sneaking into the castle in the middle of the night and leaving jokes all over the place: under the king's pillow, in his soup, even in the royal toilet. The king was furious, but he couldn't seem to stop Jokester. And then, one day, the people of the kingdom discovered that the jokes left by Jokester were so funny that they couldn't help but laugh. And once they started laughing, they couldn't stop. The king was so angry that he banished Jokester from the kingdom, but the people still laughed, and they laughed, and they laughed. And they all lived happily ever after.
+    </div>
+  </div>
+  <div data-orientation="vertical"
+       data-state="visible"
+       class="flex touch-none select-none transition-colors h-full w-2.5 border-l border-l-transparent p-[1px]"
+       style="position: absolute; top: 0px; right: 0px; bottom: var(--radix-scroll-area-corner-height); --radix-scroll-area-thumb-height: 30.354166666666664px;"
+  >
+    <div data-state="visible"
+         class="relative flex-1 rounded-full bg-border"
+         style="width: var(--radix-scroll-area-thumb-width); height: var(--radix-scroll-area-thumb-height); transform: translate3d(0px, 0px, 0px);"
+    >
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/ScrollArea Hover smoke-test 1`] = `
+<div dir="ltr"
+     class="relative overflow-hidden h-32 w-80 rounded-md border p-4"
+     style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+>
+  <style>
+    [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+  </style>
+  <div data-radix-scroll-area-viewport
+       class="h-full w-full rounded-[inherit]"
+       style="overflow: hidden scroll;"
+  >
+    <div style="min-width: 100%; display: table;">
+      Jokester began sneaking into the castle in the middle of the night and leaving jokes all over the place: under the king's pillow, in his soup, even in the royal toilet. The king was furious, but he couldn't seem to stop Jokester. And then, one day, the people of the kingdom discovered that the jokes left by Jokester were so funny that they couldn't help but laugh. And once they started laughing, they couldn't stop. The king was so angry that he banished Jokester from the kingdom, but the people still laughed, and they laughed, and they laughed. And they all lived happily ever after.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Design System/Core/ScrollArea Scroll smoke-test 1`] = `
+<div dir="ltr"
+     class="relative overflow-hidden h-32 w-80 rounded-md border p-4"
+     style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+>
+  <style>
+    [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+  </style>
+  <div data-radix-scroll-area-viewport
+       class="h-full w-full rounded-[inherit]"
+       style="overflow: hidden scroll;"
+  >
+    <div style="min-width: 100%; display: table;">
+      Jokester began sneaking into the castle in the middle of the night and leaving jokes all over the place: under the king's pillow, in his soup, even in the royal toilet. The king was furious, but he couldn't seem to stop Jokester. And then, one day, the people of the kingdom discovered that the jokes left by Jokester were so funny that they couldn't help but laugh. And once they started laughing, they couldn't stop. The king was so angry that he banished Jokester from the kingdom, but the people still laughed, and they laughed, and they laughed. And they all lived happily ever after.
+    </div>
+  </div>
+</div>
+`;
