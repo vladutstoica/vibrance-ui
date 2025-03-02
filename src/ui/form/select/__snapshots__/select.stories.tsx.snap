@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Fields/Select Default smoke-test 1`] = `
+<button type="button"
+        role="combobox"
+        aria-controls="radix-:r0:"
+        aria-expanded="false"
+        aria-autocomplete="none"
+        dir="ltr"
+        data-state="closed"
+        data-placeholder
+        class="flex h-9 items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1 w-96"
+>
+  <span style="pointer-events: none;">
+    Select a fruit
+  </span>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       width="24"
+       height="24"
+       viewbox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       class="lucide lucide-chevron-down h-4 w-4 opacity-50"
+       aria-hidden="true"
+  >
+    <path d="m6 9 6 6 6-6">
+    </path>
+  </svg>
+</button>
+`;
