@@ -10,6 +10,12 @@ import {
   User2,
 } from "lucide-react";
 import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "../../core/dropdown-menu/dropdown-menu";
+import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
@@ -23,12 +29,6 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "./sidebar";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "../../core/dropdown-menu/dropdown-menu";
 
 /**
  * A composable, themeable and customizable sidebar component.
