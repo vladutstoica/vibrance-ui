@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Slider Default smoke-test 1`] = `
+<span dir="ltr"
+      data-orientation="horizontal"
+      aria-disabled="false"
+      class="relative flex w-full touch-none select-none items-center"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+>
+  <span data-orientation="horizontal"
+        class="relative h-1.5 w-full grow overflow-hidden rounded-full bg-primary/20"
+  >
+    <span data-orientation="horizontal"
+          class="absolute h-full bg-primary"
+          style="left: 0%; right: 67%;"
+    >
+    </span>
+  </span>
+  <span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(33% + 2.72px);">
+    <span role="slider"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-orientation="horizontal"
+          data-orientation="horizontal"
+          tabindex="0"
+          class="block h-4 w-4 rounded-full border border-primary/50 bg-background shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+          data-radix-collection-item
+          aria-valuenow="33"
+          style
+    >
+    </span>
+  </span>
+</span>
+`;
+
+exports[`Design System/Core/Slider Disabled smoke-test 1`] = `
+<span dir="ltr"
+      data-orientation="horizontal"
+      aria-disabled="true"
+      data-disabled
+      class="relative flex w-full touch-none select-none items-center"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+>
+  <span data-disabled
+        data-orientation="horizontal"
+        class="relative h-1.5 w-full grow overflow-hidden rounded-full bg-primary/20"
+  >
+    <span data-orientation="horizontal"
+          data-disabled
+          class="absolute h-full bg-primary"
+          style="left: 0%; right: 67%;"
+    >
+    </span>
+  </span>
+  <span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(33% + 2.72px);">
+    <span role="slider"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-orientation="horizontal"
+          data-orientation="horizontal"
+          data-disabled
+          class="block h-4 w-4 rounded-full border border-primary/50 bg-background shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+          data-radix-collection-item
+          aria-valuenow="33"
+          style
+    >
+    </span>
+  </span>
+</span>
+`;
+
+exports[`Design System/Core/Slider Inverted smoke-test 1`] = `
+<span dir="ltr"
+      data-orientation="horizontal"
+      aria-disabled="false"
+      class="relative flex w-full touch-none select-none items-center"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+>
+  <span data-orientation="horizontal"
+        class="relative h-1.5 w-full grow overflow-hidden rounded-full bg-primary/20"
+  >
+    <span data-orientation="horizontal"
+          class="absolute h-full bg-primary"
+          style="right: 0%; left: 67%;"
+    >
+    </span>
+  </span>
+  <span style="transform: var(--radix-slider-thumb-transform); position: absolute; right: calc(33% - 13.28px);">
+    <span role="slider"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-orientation="horizontal"
+          data-orientation="horizontal"
+          tabindex="0"
+          class="block h-4 w-4 rounded-full border border-primary/50 bg-background shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+          data-radix-collection-item
+          aria-valuenow="33"
+          style
+    >
+    </span>
+  </span>
+</span>
+`;
