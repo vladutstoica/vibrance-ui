@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Core/Card Default smoke-test 1`] = `
+<div class="rounded-xl border bg-card text-card-foreground shadow w-96">
+  <div class="flex flex-col space-y-1.5 p-6">
+    <div class="font-semibold leading-none tracking-tight">
+      Notifications
+    </div>
+    <div class="text-sm text-muted-foreground">
+      You have 3 unread messages.
+    </div>
+  </div>
+  <div class="p-6 pt-0 grid gap-4">
+    <div class="flex items-center gap-4">
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="24"
+           height="24"
+           viewbox="0 0 24 24"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="2"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           class="lucide lucide-bell-ring size-6"
+      >
+        <path d="M10.268 21a2 2 0 0 0 3.464 0">
+        </path>
+        <path d="M22 8c0-2.3-.8-4.3-2-6">
+        </path>
+        <path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326">
+        </path>
+        <path d="M4 2C2.8 3.7 2 5.7 2 8">
+        </path>
+      </svg>
+      <div>
+        <p>
+          Your call has been confirmed.
+        </p>
+        <p class="text-foreground/50">
+          1 hour ago
+        </p>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="24"
+           height="24"
+           viewbox="0 0 24 24"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="2"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           class="lucide lucide-bell-ring size-6"
+      >
+        <path d="M10.268 21a2 2 0 0 0 3.464 0">
+        </path>
+        <path d="M22 8c0-2.3-.8-4.3-2-6">
+        </path>
+        <path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326">
+        </path>
+        <path d="M4 2C2.8 3.7 2 5.7 2 8">
+        </path>
+      </svg>
+      <div>
+        <p>
+          You have a new message!
+        </p>
+        <p class="text-foreground/50">
+          1 hour ago
+        </p>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="24"
+           height="24"
+           viewbox="0 0 24 24"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="2"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           class="lucide lucide-bell-ring size-6"
+      >
+        <path d="M10.268 21a2 2 0 0 0 3.464 0">
+        </path>
+        <path d="M22 8c0-2.3-.8-4.3-2-6">
+        </path>
+        <path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326">
+        </path>
+        <path d="M4 2C2.8 3.7 2 5.7 2 8">
+        </path>
+      </svg>
+      <div>
+        <p>
+          Your subscription is expiring soon!
+        </p>
+        <p class="text-foreground/50">
+          2 hours ago
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flex items-center p-6 pt-0">
+    <button class="hover:underline">
+      Close
+    </button>
+  </div>
+</div>
+`;
