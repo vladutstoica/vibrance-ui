@@ -6,7 +6,7 @@ import { Switch } from "./switch";
  * A control that allows the user to toggle between checked and not checked.
  */
 const meta = {
-  title: "ui/Switch",
+  title: "Design System/Fields/Switch",
   component: Switch,
   tags: ["autodocs"],
   argTypes: {},

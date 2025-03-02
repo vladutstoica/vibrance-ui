@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ui/Switch Default smoke-test 1`] = `
+exports[`Design System/Fields/Switch Default smoke-test 1`] = `
 <div class="flex items-center space-x-2">
   <button type="button"
           role="switch"
@@ -23,7 +23,7 @@ exports[`ui/Switch Default smoke-test 1`] = `
 </div>
 `;
 
-exports[`ui/Switch Disabled smoke-test 1`] = `
+exports[`Design System/Fields/Switch Disabled smoke-test 1`] = `
 <div class="flex items-center space-x-2">
   <button type="button"
           role="switch"
