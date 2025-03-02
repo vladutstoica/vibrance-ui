@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Fields/RadioGroup Default smoke-test 1`] = `
+<div role="radiogroup"
+     aria-required="false"
+     dir="ltr"
+     class="grid gap-2 grid-cols-[1rem_1fr] items-center"
+     tabindex="0"
+     style="outline: none;"
+>
+  <button type="button"
+          role="radio"
+          aria-checked="false"
+          data-state="unchecked"
+          value="default"
+          class="aspect-square h-4 w-4 rounded-full border border-primary text-primary shadow focus:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+          id="r1"
+          tabindex="-1"
+          data-radix-collection-item
+  >
+  </button>
+  <label for="r1">
+    Default
+  </label>
+  <button type="button"
+          role="radio"
+          aria-checked="true"
+          data-state="checked"
+          value="comfortable"
+          class="aspect-square h-4 w-4 rounded-full border border-primary text-primary shadow focus:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+          id="r2"
+          tabindex="-1"
+          data-radix-collection-item
+  >
+    <span data-state="checked"
+          class="flex items-center justify-center"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="24"
+           height="24"
+           viewbox="0 0 24 24"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="2"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           class="lucide lucide-circle h-3.5 w-3.5 fill-primary"
+      >
+        <circle cx="12"
+                cy="12"
+                r="10"
+        >
+        </circle>
+      </svg>
+    </span>
+  </button>
+  <label for="r2">
+    Comfortable
+  </label>
+  <button type="button"
+          role="radio"
+          aria-checked="false"
+          data-state="unchecked"
+          value="compact"
+          class="aspect-square h-4 w-4 rounded-full border border-primary text-primary shadow focus:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+          id="r3"
+          tabindex="-1"
+          data-radix-collection-item
+  >
+  </button>
+  <label for="r3">
+    Compact
+  </label>
+</div>
+`;
