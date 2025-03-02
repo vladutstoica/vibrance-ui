@@ -78,6 +78,9 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
 
   return (
     <style
+      // This is safe as we're only injecting CSS variables from a predefined theme object
+      // The content is not user-generated and is statically defined in our codebase
+      // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
       dangerouslySetInnerHTML={{
         __html: Object.entries(THEMES)
           .map(
