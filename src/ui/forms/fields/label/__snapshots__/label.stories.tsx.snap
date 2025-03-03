@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Forms/Fields/Label Default smoke-test 1`] = `
+<label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+       for="email"
+>
+  Your email address
+</label>
+`;

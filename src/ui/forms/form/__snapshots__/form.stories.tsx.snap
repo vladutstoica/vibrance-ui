@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design System/Forms/Form Default smoke-test 1`] = `
+<form class="space-y-8">
+  <div class="space-y-2">
+    <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+           for=":r0:-form-item"
+    >
+      Username
+    </label>
+    <input class="w-full rounded-md border border-input bg-background px-3 py-2"
+           placeholder="username"
+           id=":r0:-form-item"
+           aria-describedby=":r0:-form-item-description"
+           aria-invalid="false"
+           value
+           name="username"
+    >
+    <p id=":r0:-form-item-description"
+       class="text-muted-foreground text-sm"
+    >
+      This is your public display name.
+    </p>
+  </div>
+  <button class="rounded bg-primary px-4 py-2 text-primary-foreground"
+          type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;

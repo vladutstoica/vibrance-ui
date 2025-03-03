@@ -17,7 +17,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "../../core/tooltip/tooltip";
-import { Input } from "../../fields/input/input";
+import { Input } from "../../forms/fields/input/input";
 
 const SIDEBAR_COOKIE_NAME = "sidebar:state";
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
