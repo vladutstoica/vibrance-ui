@@ -1,0 +1,179 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction/Getting Started" />
+
+# Getting Started
+
+This guide will help you get up and running with our component library in your project.
+
+## Installation
+
+First, install the component library using your preferred package manager:
+
+```bash
+# Using npm
+npm install @your-org/components
+
+# Using yarn
+yarn add @your-org/components
+
+# Using pnpm
+pnpm add @your-org/components
+```
+
+## Setup
+
+### Tailwind CSS Configuration
+
+Our components are built with Tailwind CSS. You'll need to extend your Tailwind configuration to include our design tokens:
+
+```js
+// tailwind.config.js
+module.exports = {
+  content: [
+    // ...
+    './node_modules/@your-org/components/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      // Import our design tokens
+      colors: require('@your-org/components/tokens').colors,
+      // ... other token imports
+    },
+  },
+  plugins: [
+    // Add any required plugins
+    require('@tailwindcss/forms'),
+  ],
+}
+```
+
+### Font Configuration
+
+We recommend using the Inter font family for the best experience:
+
+```jsx
+// In your root layout
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
+```
+
+## Basic Usage
+
+Import components from their respective categories:
+
+```jsx
+// Core components
+import { Button } from '@your-org/components/core/button';
+import { Card } from '@your-org/components/core/card';
+
+// Field components
+import { Input } from '@your-org/components/fields/input';
+import { Checkbox } from '@your-org/components/fields/checkbox';
+
+// Application components
+import { Sidebar } from '@your-org/components/application/components/sidebar';
+
+function MyComponent() {
+  return (
+    <Card>
+      <h2>Sign Up</h2>
+      <form>
+        <Input placeholder="Email" type="email" />
+        <Checkbox label="Subscribe to newsletter" />
+        <Button>Submit</Button>
+      </form>
+    </Card>
+  );
+}
+```
+
+<div className="p-4 bg-blue-50 border border-blue-200 rounded-md my-4">
+  <h3 className="text-lg font-medium text-blue-800">TypeScript Support</h3>
+  <p className="mt-2 text-blue-700">
+    All components include full TypeScript definitions to provide excellent developer experience with autocompletion and type checking.
+  </p>
+</div>
+
+## Theming
+
+Our components support theming through CSS variables and Tailwind's theme extension:
+
+```jsx
+// Example theme provider
+import { ThemeProvider } from '@your-org/components/context/theme-provider';
+
+function MyApp({ children }) {
+  return (
+    <ThemeProvider defaultTheme="light">
+      {children}
+    </ThemeProvider>
+  );
+}
+```
+
+## Advanced Usage
+
+### Component Composition
+
+Many components can be composed together to create more complex UIs:
+
+```jsx
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@your-org/components/core/card';
+import { Button } from '@your-org/components/core/button';
+
+function FeatureCard() {
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Feature Title</CardTitle>
+        <CardDescription>Feature description goes here</CardDescription>
+      </CardHeader>
+      <CardContent>
+        Main content goes here
+      </CardContent>
+      <CardFooter>
+        <Button>Learn More</Button>
+      </CardFooter>
+    </Card>
+  );
+}
+```
+
+### Using Blocks and Templates
+
+For more complex UI patterns, you can use our pre-built blocks and templates:
+
+```jsx
+import { ProductCard } from '@your-org/components/ecommerce/blocks/product-card-1';
+import { ProductCollectionTemplate } from '@your-org/components/ecommerce/templates/product-collection-1';
+
+function ProductsPage() {
+  const products = [/* your product data */];
+  
+  return (
+    <ProductCollectionTemplate
+      title="New Arrivals"
+      description="Check out our latest products"
+      products={products.map(product => (
+        <ProductCard key={product.id} product={product} />
+      ))}
+    />
+  );
+}
+```
+
+## Next Steps
+
+- Explore the [component documentation](/docs/design-system-core-button--docs) to learn about all available components
+- Check out our [example applications](/docs/examples-dashboard--docs) for inspiration
+- Read our [design guidelines](/docs/design-guidelines-colors--docs) to understand our design principles 

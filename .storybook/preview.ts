@@ -43,6 +43,25 @@ const preview: Preview = {
         },
       },
     },
+    options: {
+      storySort: {
+        order: [
+          'Introduction', [
+            'Introduction',
+            'Getting Started',
+            'Design Principles',
+          ],
+          'Design System', [
+            'Core',
+            'Fields',
+            'Application',
+            'Marketing',
+            'Ecommerce',
+          ],
+          'Examples',
+        ],
+      },
+    },
   },
   tags: ["autodocs"],
   decorators: [

@@ -1,0 +1,88 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction/Design Principles" />
+
+# Design Principles
+
+Our component library is built on a set of core design principles that guide our development process and ensure a consistent, high-quality user experience.
+
+## Accessibility First
+
+We believe that great design is accessible to everyone. All components are built with accessibility in mind from the start, not as an afterthought.
+
+- **WCAG Compliance**: Components meet WCAG 2.1 AA standards
+- **Keyboard Navigation**: All interactive elements are fully keyboard accessible
+- **Screen Reader Support**: Proper ARIA attributes and semantic HTML
+- **Color Contrast**: Text meets minimum contrast requirements
+
+## Consistency
+
+Consistency creates familiarity and reduces cognitive load for users.
+
+- **Visual Consistency**: Consistent spacing, typography, and color usage
+- **Behavioral Consistency**: Interactions work the same way across components
+- **API Consistency**: Component props follow consistent patterns
+
+## Flexibility
+
+Components are designed to be flexible enough to meet a wide range of use cases.
+
+- **Composable**: Components can be combined in various ways
+- **Customizable**: Variants and props allow for customization
+- **Themeable**: Support for different visual themes
+
+## Performance
+
+Performance is a feature, not an afterthought.
+
+- **Bundle Size**: Components are optimized for minimal bundle size
+- **Rendering Performance**: Efficient rendering with minimal re-renders
+- **Lazy Loading**: Support for code splitting and lazy loading
+
+## Developer Experience
+
+A great component library should be a joy to use for developers.
+
+- **Intuitive APIs**: Props and component names that make sense
+- **Comprehensive Documentation**: Clear examples and API documentation
+- **TypeScript Support**: Full TypeScript definitions for all components
+- **Predictable Behavior**: Components behave as expected with no surprises
+
+## Design Tokens
+
+Our design system is built on a foundation of design tokens that ensure consistency across the entire library.
+
+### Colors
+
+We use a semantic color system that separates color usage from specific color values:
+
+- **Primary**: Main brand color, used for primary actions
+- **Secondary**: Complementary color, used for secondary actions
+- **Accent**: Highlight color, used sparingly for emphasis
+- **Destructive**: Used for destructive actions
+- **Muted**: Used for backgrounds and less prominent elements
+- **Foreground**: Text and icon colors
+
+### Typography
+
+Our typography system is based on a limited set of font sizes and weights:
+
+- **Font Family**: Inter (sans-serif)
+- **Font Sizes**: From xs (0.75rem) to 5xl (3rem)
+- **Font Weights**: Regular (400), Medium (500), Semibold (600), Bold (700)
+- **Line Heights**: Appropriate line heights for each font size
+
+### Spacing
+
+We use a consistent spacing scale throughout the library:
+
+- **4-point Grid**: All spacing is based on multiples of 4px
+- **Named Tokens**: xs (4px), sm (8px), md (16px), lg (24px), xl (32px), etc.
+
+### Borders & Shadows
+
+Consistent borders and shadows create depth and hierarchy:
+
+- **Border Radius**: From square (0px) to full (9999px)
+- **Border Width**: From none (0px) to thick (4px)
+- **Shadows**: From subtle to pronounced elevation 

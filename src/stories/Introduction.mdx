@@ -1,0 +1,109 @@
+import { Meta } from '@storybook/blocks';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/core/tabs/tabs';
+
+<Meta title="Introduction" />
+
+# Component Library
+
+Welcome to our component library - a comprehensive collection of UI components designed for building modern web applications.
+
+## Organization
+
+Our component library is organized into several key sections:
+
+<Tabs defaultValue="core">
+  <TabsList>
+    <TabsTrigger value="core">Core</TabsTrigger>
+    <TabsTrigger value="fields">Fields</TabsTrigger>
+    <TabsTrigger value="application">Application</TabsTrigger>
+    <TabsTrigger value="marketing">Marketing</TabsTrigger>
+    <TabsTrigger value="ecommerce">E-commerce</TabsTrigger>
+  </TabsList>
+  
+  <TabsContent value="core">
+    <div className="p-4 border rounded-md mt-2">
+      <h3 className="text-lg font-medium">Core Components</h3>
+      <p className="mt-2">Foundational UI components that can be used across all domains. These include buttons, cards, dialogs, and other basic building blocks.</p>
+      <a className="text-blue-500 hover:underline mt-4 inline-block" href="/?path=/docs/design-system-core-button--docs">View Core Components →</a>
+    </div>
+  </TabsContent>
+  
+  <TabsContent value="fields">
+    <div className="p-4 border rounded-md mt-2">
+      <h3 className="text-lg font-medium">Field Components</h3>
+      <p className="mt-2">Form input components for collecting user data. These include inputs, checkboxes, radio buttons, and other form controls.</p>
+      <a className="text-blue-500 hover:underline mt-4 inline-block" href="/?path=/docs/design-system-fields-input--docs">View Field Components →</a>
+    </div>
+  </TabsContent>
+  
+  <TabsContent value="application">
+    <div className="p-4 border rounded-md mt-2">
+      <h3 className="text-lg font-medium">Application Components</h3>
+      <p className="mt-2">Components specific to application interfaces, including navigation, data visualization, and layout components.</p>
+      <a className="text-blue-500 hover:underline mt-4 inline-block" href="/?path=/docs/design-system-application-components-sidebar--docs">View Application Components →</a>
+    </div>
+  </TabsContent>
+  
+  <TabsContent value="marketing">
+    <div className="p-4 border rounded-md mt-2">
+      <h3 className="text-lg font-medium">Marketing Components</h3>
+      <p className="mt-2">Components designed for marketing websites, including hero sections, feature grids, and testimonial displays.</p>
+      <a className="text-blue-500 hover:underline mt-4 inline-block" href="/?path=/docs/design-system-marketing-components--docs">View Marketing Components →</a>
+    </div>
+  </TabsContent>
+  
+  <TabsContent value="ecommerce">
+    <div className="p-4 border rounded-md mt-2">
+      <h3 className="text-lg font-medium">E-commerce Components</h3>
+      <p className="mt-2">Components specific to e-commerce functionality, including product displays, shopping carts, and checkout elements.</p>
+      <a className="text-blue-500 hover:underline mt-4 inline-block" href="/?path=/docs/design-system-ecommerce-components--docs">View E-commerce Components →</a>
+    </div>
+  </TabsContent>
+</Tabs>
+
+## Component Structure
+
+Within each domain, components are organized into three categories:
+
+- **Components**: Individual UI elements specific to the domain
+- **Blocks**: Richer compositions of components for specific use cases
+- **Templates**: Full page layouts and templates
+
+## Getting Started
+
+### Installation
+
+```bash
+npm install @your-org/components
+# or
+yarn add @your-org/components
+# or
+pnpm add @your-org/components
+```
+
+### Basic Usage
+
+```jsx
+import { Button } from '@your-org/components/core/button';
+
+function MyComponent() {
+  return (
+    <Button variant="default">
+      Click Me
+    </Button>
+  );
+}
+```
+
+## Accessibility
+
+All components are built with accessibility in mind and follow WCAG guidelines. We test our components against:
+
+- WCAG 2.1 A & AA standards
+- Keyboard navigation
+- Screen reader compatibility
+- Color contrast requirements
+
+## Contributing
+
+We welcome contributions to our component library. Please see our [contribution guidelines](https://github.com/your-org/components/blob/main/CONTRIBUTING.md) for more information. 
