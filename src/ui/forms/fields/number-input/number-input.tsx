@@ -115,7 +115,7 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
     };
 
     return (
-      <div className={cn("flex items-center", className)}>
+      <div className={cn("group relative flex items-center", className)}>
         <NumericFormat
           value={value}
           onValueChange={handleChange}
@@ -132,17 +132,19 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
           customInput={Input}
           placeholder={placeholder}
           className={cn(
-            "rounded-r-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none",
+            "pr-8 [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none",
+            "focus-within:ring-0 focus-within:ring-offset-0",
+            "group-focus-within:ring-2 group-focus-within:ring-ring group-focus-within:ring-offset-2",
           )}
           getInputRef={combinedRef}
           {...props}
         />
-        <div className="flex flex-col">
+        <div className="absolute top-0 right-0 flex h-full flex-col">
           <Button
             type="button"
             aria-label="Increase value"
-            className="h-5 rounded-l-none rounded-br-none border-b-[0.5px] border-l-0 px-2 focus-visible:relative"
-            variant="outline"
+            className="h-[50%] rounded-l-none rounded-br-none border border-input px-2 hover:bg-accent hover:text-accent-foreground focus-visible:z-10 focus-visible:ring-0"
+            variant="ghost"
             onClick={handleIncrement}
             disabled={value === max}
           >
@@ -151,8 +153,8 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
           <Button
             type="button"
             aria-label="Decrease value"
-            className="h-5 rounded-l-none rounded-tr-none border-t-[0.5px] border-l-0 px-2 focus-visible:relative"
-            variant="outline"
+            className="h-[50%] rounded-l-none rounded-tr-none border border-input px-2 hover:bg-accent hover:text-accent-foreground focus-visible:z-10 focus-visible:ring-0"
+            variant="ghost"
             onClick={handleDecrement}
             disabled={value === min}
           >
