@@ -139,11 +139,11 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
           getInputRef={combinedRef}
           {...props}
         />
-        <div className="absolute top-0 right-0 flex h-full flex-col">
+        <div className="absolute top-0 right-0 flex h-full flex-col border-input border-l">
           <Button
             type="button"
             aria-label="Increase value"
-            className="h-[50%] rounded-l-none rounded-br-none border border-input px-2 hover:bg-accent hover:text-accent-foreground focus-visible:z-10 focus-visible:ring-0"
+            className="h-[50%] rounded-l-none rounded-br-none border-0 border-input border-b px-2 hover:bg-accent hover:text-accent-foreground focus-visible:z-10 focus-visible:ring-0"
             variant="ghost"
             onClick={handleIncrement}
             disabled={value === max}
@@ -153,7 +153,7 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
           <Button
             type="button"
             aria-label="Decrease value"
-            className="h-[50%] rounded-l-none rounded-tr-none border border-input px-2 hover:bg-accent hover:text-accent-foreground focus-visible:z-10 focus-visible:ring-0"
+            className="h-[50%] rounded-l-none rounded-tr-none border-0 px-2 hover:bg-accent hover:text-accent-foreground focus-visible:z-10 focus-visible:ring-0"
             variant="ghost"
             onClick={handleDecrement}
             disabled={value === min}
